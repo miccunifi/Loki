@@ -1,0 +1,9 @@
+database/
+lib/angular.js
+lib/jquery.fancybox.js
+lib/jquery-2.0.3.js
+lib/jquery-ui-1.10.3.js
+.project
+.buildpath
+.htaccess
+.settings/

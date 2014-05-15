@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+h1 {
+	float: right;
+	margin-top: 65px;
+	margin-right: 75px;
+	font-size: 2.5em;
+}
+
+#back-button {
+	width: 50px;
+}
+
+#logo-home {
+	width: 200px;
+	margin-left: 136px;
+}
+
+#back-button:HOVER {
+	opacity: 0.7;
+}
+
+#back-button {
+	width: 50px;
+	float: right;
+	margin-top: 150px;
+	margin-right: -154px;
+}
+
+.fix {
+	margin-top: 70px !important;
+}
+
+#filedrag {
+	margin: 30px auto 10px 50px;
+}
+
+#media-info {
+	float: left;
+	width: 370px;
+	height: 185px;
+	margin-left: 30px;
+}
+
+.input {
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 23px;
+	height: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+#query-file {
+	margin-top: 30px;
+}
+
+.search-button {
+	display: block;
+	margin-top: 20px;
+}
+
+.bar-error {
+	background-color: rgba(253, 111, 111, 0.69) !important;
+}
+
+.loading {
+	width: 25px;
+	margin-top: 19px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#upload-message a {
+	display: block;
+	margin-top: -18px;
+	text-decoration: none;
+	color: #FF9C9C;
+}
+
+#upload-message a:HOVER {
+	color: #FF4B4B;
+}
+
+#upload-message {
+	height: 50px !important;
+}
+
+#percent {
+	top: 5px !important;
+}

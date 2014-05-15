@@ -1,0 +1,171 @@
+<dataConfig>
+	<dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/micc_interface"  user="micc-interface" password="59JWfEG5QM7U22CD" />
+	<dataSource name="ds-file" type="BinFileDataSource"/>
+	<dataSource name ="bin" type="BinFileDataSource" />
+	
+	<document name="media">
+		<entity name="document" pk="id_media" query="SELECT media.* , media_types.code as type FROM media NATURAL LEFT JOIN media_types WHERE id_media_types = 4 AND ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
+            	<field column="id_media" name="id" />
+           	 	<field column="id_media" name="sourceId" />
+            	<field column="title" name="title" />
+				<field column="author" name="author" />
+            	<field column="type" name="type" />
+            	<field column="frameh" name="frameh" />
+           	 	<field column="framew" name="framew" />
+            	<field column="filename" name="filename" />
+            	<field column="mediauri" name="mediauri" />
+            	<field column="dataserverpath" name="dataserverpath" />
+            	<field column="fps" name="fps" />           
+            
+           	 <entity name="annotations" query="select title from annotations where id_media='${document.id_media}' GROUP BY title">
+               	 	<field column="title" name="annotations" />
+            		</entity>
+            
+            <!-- Configurazione locale -->
+            <entity name="document_text" processor="TikaEntityProcessor" onError="abort" url="/var/www/search-interface/media/document/${document.filename}" dataSource="ds-file" format="text">
+                <field column="text" name="text_extracted" />
+            </entity>          
+             
+        </entity>
+            
+	<entity name="doc_page" pk="id_media_page" query="SELECT media.*, num AS page, concat(id_media,'_',num) as id_media_page , 'PAGE' as type FROM media JOIN sequence ON ( filesize >= sequence.num   ) WHERE id_media_types = 4 AND ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
+              <field column="id_media_page" name="id" />
+              <field column="id_media" name="sourceId" />
+            <field column="title" name="title" />
+	    <field column="author" name="author" />
+            <field column="type" name="type" />
+            <field column="frameh" name="frameh" />
+            <field column="framew" name="framew" />
+            
+            
+            <field column="filename" name="filename" />
+            <field column="mediauri" name="mediauri" />
+            <field column="dataserverpath" name="dataserverpath" />
+            
+            <field column="page" name="page" />
+            
+            <entity name="doc_page_extracted" processor="TikaEntityProcessor" onError="continue" url="/var/www/search-interface/media/document_pages_pdf/${doc_page.mediauri}/page_${doc_page.page}.pdf" dataSource="ds-file" format="text">
+                <field column="text" name="text_extracted" />
+            </entity>
+       	</entity>
+	<entity name="image" pk="id_media" query="SELECT media.* , media_types.code as type FROM media NATURAL LEFT JOIN media_types WHERE id_media_types = 2 AND id_media_video is null AND ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
+            <field column="id_media" name="id" />
+            <field column="id_media" name="sourceId" />
+            <field column="title" name="title" />
+            <field column="type" name="type" />
+            <field column="frameh" name="frameh" />
+            <field column="framew" name="framew" />
+            <field column="filename" name="filename" />
+            <field column="mediauri" name="mediauri" />
+            <field column="dataserverpath" name="dataserverpath" />
+            
+            <entity name="annotations" query="select title from annotations where id_media='${image.id_media}'">
+                <field column="title" name="annotations" />
+            </entity>
+
+			<!-- LIRE import -->
+			<entity name="f"
+                    processor="FileListEntityProcessor"
+                    transformer="TemplateTransformer"
+                    baseDir="/var/www/search-interface/media/image/"
+                    fileName="${image.filename}"
+                    recursive="true"
+                    rootEntity="false" onError="skip">
+                <entity name="features" processor="net.semanticmetadata.lire.solr.LireEntityProcessor" url="${f.fileAbsolutePath}" dataSource="bin"  onError="skip">
+                    <field column="cl_ha"/>
+                    <field column="cl_hi"/>
+                   <!-- <field column="ph_ha"/>
+                    <field column="ph_hi"/>
+                    <field column="oh_ha"/>
+                    <field column="oh_hi"/>
+                    <field column="jc_ha"/>
+                    <field column="jc_hi"/>
+                    <field column="eh_ha"/>
+                    <field column="eh_hi"/> -->
+                </entity>
+            </entity>
+      
+        </entity>
+
+	<!-- indicizzazione keyframes   -->
+        <entity name="keyframe" pk="id_media" query="SELECT id_media AS id_media_keyframe, id_media_video AS sourceID, filename, mediauri, shot_startpoint, dataserverpath, 'KEYFRAME' AS TYPE, title FROM media WHERE id_media_video is not NULL and ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
+            <field column="id_media_keyframe" name="id" />
+            <field column="sourceID" name="id_media" />
+            <field column="title" name="title" />
+            <field column="type" name="type" />
+            <field column="frameh" name="frameh" />
+            <field column="framew" name="framew" />
+            <field column="thumbnail" name="filename" />
+            <field column="filename" name="filename" />
+            <field column="mediauri" name="mediauri" />
+            <field column="dataserverpath" name="dataserverpath" />
+            
+            
+            <entity name="annotations" query="select title from annotations where id_media='${keyframe.sourceID}' AND timepoint='${keyframe.timepoint}'">
+                <field column="title" name="annotations" />
+            </entity>
+
+
+	<!-- LIRE import -->
+	<entity name="f"
+                    processor="FileListEntityProcessor"
+                    transformer="TemplateTransformer"
+                    baseDir="/var/www/search-interface/media/image/"
+                    fileName="${keyframe.filename}"
+                    recursive="true"
+                    rootEntity="false" onError="skip">
+                <entity name="features" processor="net.semanticmetadata.lire.solr.LireEntityProcessor" url="${f.fileAbsolutePath}" dataSource="bin"  onError="skip">
+                    <field column="cl_ha"/>
+                    <field column="cl_hi"/>
+                   <!-- <field column="ph_ha"/>
+                    <field column="ph_hi"/>
+                    <field column="oh_ha"/>
+                    <field column="oh_hi"/>
+                    <field column="jc_ha"/>
+                    <field column="jc_hi"/>
+                    <field column="eh_ha"/>
+                    <field column="eh_hi"/> -->
+                </entity>
+            </entity>
+            
+        </entity>
+
+	<entity name="audio" pk="id_media" query="SELECT media.* , media_types.code as type FROM media NATURAL LEFT JOIN media_types WHERE id_media_types = 3 AND ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
+            <field column="id_media" name="id" />
+            <field column="id_media" name="sourceId" />
+            <field column="title" name="title" />
+            <field column="type" name="type" />
+            <field column="frameh" name="frameh" />
+            <field column="framew" name="framew" />
+            <field column="filename" name="filename" />
+            <field column="mediauri" name="mediauri" />
+            <field column="dataserverpath" name="dataserverpath" />
+            
+            <entity name="annotations" query="select title from annotations where id_media='${audio.id_media}' GROUP BY title">
+                <field column="title" name="annotations" />
+            </entity>
+        </entity> 
+
+	<entity name="video" pk="id_media" query="SELECT media.* , media_types.code as type FROM media NATURAL LEFT JOIN media_types WHERE id_media_types = 1 AND ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
+            <field column="id_media" name="id" />
+            <field column="id_media" name="sourceId" />
+            <field column="title" name="title" />
+            <field column="type" name="type" />
+            <field column="frameh" name="frameh" />
+            <field column="framew" name="framew" />
+            <field column="filename" name="filename" />
+            <field column="mediauri" name="mediauri" />
+            <field column="dataserverpath" name="dataserverpath" />
+
+            
+            <entity name="annotations" query="select title from annotations where id_media='${video.id_media}' GROUP BY title">
+                <field column="title" name="annotations" />
+            </entity>
+            
+            <entity name="transcriptions" query="select title from transcriptions where media_id_media='${video.id_media}' GROUP BY title">
+                <field column="title" name="transcriptions" />
+            </entity>
+           
+        </entity> 
+	</document>
+</dataConfig>

@@ -1,0 +1,158 @@
+InfoKey: Creator
+InfoValue: Writer&#0;
+InfoKey: Producer
+InfoValue: OpenOffice.org 3.1&#0;
+InfoKey: Author
+InfoValue: Colin Delany&#0;
+InfoKey: CreationDate
+InfoValue: D:20090809193847-04'00'
+PdfID0: c9da8766266ed15bab964e74995615
+PdfID1: c9da8766266ed15bab964e74995615
+NumberOfPages: 49
+BookmarkTitle: Table of Contents&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 2
+BookmarkTitle: Learning from Obama:&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 3
+BookmarkTitle: Lessons for Online Communicators in 2009 and Beyond&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 3
+BookmarkTitle: Learning from Obama&#8217;s Online Success&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 5
+BookmarkTitle: Social media lessons from the Obama campaign&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 5
+BookmarkTitle: The Obama Toolkit:&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 8
+BookmarkTitle: Website&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 8
+BookmarkTitle: Email&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 8
+BookmarkTitle: MyBarackObama.com&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 9
+BookmarkTitle: Multi-Channel Online Outreach&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 9
+BookmarkTitle: Grassroots Outreach/Data Collection&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 10
+BookmarkTitle: Text messaging/cell phones&#0;
+BookmarkLevel: 3
+BookmarkPageNumber: 10
+BookmarkTitle: A Movement or Not?&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 11
+BookmarkTitle: 2. Learning from Obama's Campaign Structure&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 12
+BookmarkTitle: How to Organize for Success &#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 12
+BookmarkTitle: For Obama, Online Communications was Communications, Not Technology&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 12
+BookmarkTitle: Online Communications Was Integrated across Entire Campaign&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 13
+BookmarkTitle: Measure, Cut, then Measure Again&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 15
+BookmarkTitle: Volunteer Management &#8212; Context, Training and Accountability&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 16
+BookmarkTitle: The T-34, not the Tiger&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 17
+BookmarkTitle: 3. Learning from Obama's Online Outreach&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 19
+BookmarkTitle: How to Find and Build Support on the Internet &#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 19
+BookmarkTitle: Online Video&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 20
+BookmarkTitle: Online Social Networks&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 20
+BookmarkTitle: Email&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 22
+BookmarkTitle: Online Advertising&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 23
+BookmarkTitle: Political Blogs&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 24
+BookmarkTitle: Catching &#8216;em When They Come to You&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 25
+BookmarkTitle: 4. Learning from Obama's Volunteer Army&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 26
+BookmarkTitle: How to Put People to Work on Your Behalf&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 26
+BookmarkTitle: Countering The Smears&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 27
+BookmarkTitle: Social Media Activism&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 28
+BookmarkTitle: Data Collection&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 29
+BookmarkTitle: Getting Out The Vote&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 30
+BookmarkTitle: 5. Learning from Obama's Financial Steamroller&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 32
+BookmarkTitle: How to Raise Money Online &#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 32
+BookmarkTitle: Cultivating the Grassroots&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 34
+BookmarkTitle: You WILL be Tested on This&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 34
+BookmarkTitle: The Skills that Paid the Bills&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 35
+BookmarkTitle: Basic Principles Behind Obama&#8217;s Email Fundraising Success&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 36
+BookmarkTitle: How Much is Too Much?&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 38
+BookmarkTitle: Viral Fundraising&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 39
+BookmarkTitle: The Decisive Edge&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 40
+BookmarkTitle: 6. Learning from Obama:&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 41
+BookmarkTitle: How to Move Forward&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 41
+BookmarkTitle: A Crystal Ball is a Dangerous Toy&#0;
+BookmarkLevel: 2
+BookmarkPageNumber: 45
+BookmarkTitle: A Note about Sources&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 48
+BookmarkTitle: Further Reading&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 48
+BookmarkTitle: About the Author&#0;
+BookmarkLevel: 1
+BookmarkPageNumber: 49
