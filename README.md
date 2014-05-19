@@ -40,31 +40,34 @@ Copy in the same folder the logging configuration file: from
 
 
 In solr-config.xml check if this include lines are correctly linking to the jars
+```
 <lib dir="../../../contrib/dataimporthandler/lib" regex=".*\.jar" />
 <lib dir="../../../dist/" regex="solr-dataimporthandler-\d.*\.jar" />
 
 <lib dir="../../../dist/solrj-lib" regex=".*\.jar" />
-
+```
 In solr-config.xml check if it is defined the mysql data import handler
+```
 <requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
     <lst name="defaults">
       <str name="config">data-config.xml</str>
     </lst>
 </requestHandler>
-
+```
 
 Modify the following files with your server database,solr and tomcat configuration
--app/config.php
--app/js/config.js
--app/js/im3include.js
--service/config/db-default.php
+- app/config.php
+- app/js/config.js
+- app/js/im3include.js
+- service/config/db-default.php
 
 
 Solr
-update db params and path into the solr dih configuration file:
+
+Update db params and path in the solr dih configuration file:
 Loki/install/solr/conf/data-config.xml
 
-copy all files from Loki/install/solr/conf/  to your solr config folder
+Copy all files from Loki/install/solr/conf/  to your solr config folder
 
 
 ---
