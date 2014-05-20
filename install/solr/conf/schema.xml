@@ -228,7 +228,7 @@
 
    <!-- Text fields from SolrCell to search by default in our catch-all field -->
 
-	<copyField source="type" dest="text"/>
+   <copyField source="type" dest="text"/>
    <copyField source="title" dest="text"/>
    <copyField source="author" dest="text"/>
    <copyField source="annotations" dest="text"/>

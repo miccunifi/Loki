@@ -21,7 +21,7 @@
                	 	<field column="title" name="annotations" />
             		</entity>
             
-            <!-- Configurazione locale -->
+            <!-- Local Configuration -->
             <entity name="document_text" processor="TikaEntityProcessor" onError="abort" url="/var/www/search-interface/media/document/${document.filename}" dataSource="ds-file" format="text">
                 <field column="text" name="text_extracted" />
             </entity>          
@@ -87,7 +87,7 @@
       
         </entity>
 
-	<!-- indicizzazione keyframes   -->
+	<!-- keyframes indexing  -->
         <entity name="keyframe" pk="id_media" query="SELECT id_media AS id_media_keyframe, id_media_video AS sourceID, filename, mediauri, shot_startpoint, dataserverpath, 'KEYFRAME' AS TYPE, title FROM media WHERE id_media_video is not NULL and ('${dataimporter.request.clean}' != 'false' OR last_modified > '${dataimporter.last_index_time}')">
             <field column="id_media_keyframe" name="id" />
             <field column="sourceID" name="id_media" />

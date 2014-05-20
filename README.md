@@ -11,7 +11,7 @@ More info: http://www.micc.unifi.it/vim/opensource/loki-a-cross-media-search-eng
 
 
 Requirements:
-Lamp
+xAMP (Apache HTTP Server + MySQL)
 Tomcat 
 Solr
 
@@ -20,23 +20,23 @@ Copy all files from
 Loki / web /  
 folder into your document root.
 
-Create a database and restore the dump from:
+Create a database and create the required schema restoring the SQL dump from:
 /install/db/micc_interface_empty.sql.gz
 
-Download latest version of solr at this url:
+Download the latest version of Solr from:
 http://apache.fastbull.org/lucene/solr/4.7.1/solr-4.7.1.tgz
 
-Untar the file and deploy solr under Tomcat using this tutorial:
+Un-tar the file and deploy Solr under Tomcat following this tutorial:
 https://wiki.apache.org/solr/SolrTomcat#Installing_Solr_instances_under_Tomcat
 
-Copy the all lib jars from
+Copy all the lib JARs from
 /install/solr/lib
-into solr installations and link them from solr-config.xml files. 
+into the Solr installation and link them from solr-config.xml files.
 
-Alternatevely you can copy all these files under the tomcat web app lib folder (e.g. ….//WEB-INF/lib/) this is not the best way but it is very consistent.
+Alternatively you can copy all these files under the Tomcat web app lib/ folder (e.g. ….//WEB-INF/lib/) this is not the best way but it is very consistent.
 
 Copy in the same folder the logging configuration file: from
- solr/example/resources/log4j.properties to tomcat web app lib folder (e.g. ….//WEB-INF/lib/)
+ solr/example/resources/log4j.properties to Tomcat web app lib folder (e.g. ….//WEB-INF/lib/)
 
 
 In solr-config.xml check if this include lines are correctly linking to the jars
@@ -55,7 +55,7 @@ In solr-config.xml check if it is defined the mysql data import handler
 </requestHandler>
 ```
 
-Modify the following files with your server database,solr and tomcat configuration
+Modify the following files with your server database, Solr and Tomcat configuration
 - app/config.php
 - app/js/config.js
 - app/js/im3include.js
@@ -64,10 +64,10 @@ Modify the following files with your server database,solr and tomcat configurati
 
 Solr
 
-Update db params and path in the solr dih configuration file:
+Update DB params and path in the Solr DataImporterHandle (DIH) configuration file:
 Loki/install/solr/conf/data-config.xml
 
-Copy all files from Loki/install/solr/conf/  to your solr config folder
+Copy all the files from Loki/install/solr/conf/ to your Solr config folder
 
 
 ---

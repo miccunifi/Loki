@@ -90,9 +90,9 @@
   
   
   <lib dir="../../../dist/" regex="solr-dataimporthandler-.*.jar" />
-<lib dir="../../../dist/" regex="solr-dataimporthandler-extras-.*.jar" />
-<lib dir="../../../dist/" regex="lire-request-handler.jar" />
-<lib dir="../../../dist/" regex="lire.jar" />
+  <lib dir="../../../dist/" regex="solr-dataimporthandler-extras-.*.jar" />
+  <lib dir="../../../dist/" regex="lire-request-handler.jar" />
+  <lib dir="../../../dist/" regex="lire.jar" />
 <requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
  <lst name="defaults">
  	<str name="config">data-config.xml</str>
