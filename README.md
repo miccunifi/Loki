@@ -2,7 +2,7 @@
 Loki is a framework for the creation of web-based interfaces for search, annotation and presentation of multimedia data.
 The framework provides tools to ingest, transcoder, present, annotate and index different types of media such as images, videos, audio files and textual documents. The fronted is compliant with the latest HTML5 standards, while the backend allows users to create processing pipelines that can be adapted for different tasks and purposes.
 
-Author: Media Integration and Communication Center) http://www.micc.unifi.it
+Author: Media Integration and Communication Center - http://www.micc.unifi.it
 
 More info: http://www.micc.unifi.it/vim/opensource/loki-a-cross-media-search-engine/
 
