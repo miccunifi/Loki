@@ -60,8 +60,8 @@ if($query == null){
 	<script type="text/javascript" src="../js/droppable.js"></script>
 	
 	<!-- Required for components -->
-	<script type="text/javascript" src="../js/im3iInclude.js"></script>
-	<script type="text/javascript" src="../js/im3iSoapCalls.js"></script>
+	<script type="text/javascript" src="../js/serviceInclude.js"></script>
+	<script type="text/javascript" src="../js/serviceSoapCalls.js"></script>
 	<script type="text/javascript" src="../js/utils.js"></script>
 	<script type="text/javascript" src="../js/solrCalls.js"></script>
 	<script type="text/javascript" src="../lib/jquery.soapRequest.js"></script>

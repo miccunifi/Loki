@@ -14,6 +14,10 @@ Requirements:
 xAMP (Apache HTTP Server + MySQL)
 Tomcat 
 Solr
+ImageMagick (http://www.imagemagick.org)
+pdf2svg (http://www.cityinthesky.co.uk/opensource/pdf2svg/)
+pdftk (http://www.pdflabs.com/tools/pdftk-server/)
+ffmpeg (http://www.ffmpeg.org/)
 
 
 Copy all files from 
@@ -58,7 +62,7 @@ In solr-config.xml check if it is defined the mysql data import handler
 Modify the following files with your server database, Solr and Tomcat configuration
 - app/config.php
 - app/js/config.js
-- app/js/im3include.js
+- app/js/serviceInclude.js
 - service/config/db-default.php
 
 
