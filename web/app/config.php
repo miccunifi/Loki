@@ -26,10 +26,10 @@
 
 ?><?php
 
-$db_host = 'localhost';
-$db_user = 'micc-interface';
-$db_pass = '59JWfEG5QM7U22CD';
-$db_name = 'micc_interface';
+$db_host = '[HOST]';
+$db_user = '[USER]';
+$db_pass = '[DB]';
+$db_name = '[PASSWORD]';
 
 $miccDirectory = "/var/www/search-interface/";
 $uploadDir = '/media/';

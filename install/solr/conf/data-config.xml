@@ -1,5 +1,5 @@
 <dataConfig>
-	<dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/micc_interface"  user="micc-interface" password="59JWfEG5QM7U22CD" />
+	<dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://[HOST]/[DB]"  user="[USER]" password="[PASSWORD]" />
 	<dataSource name="ds-file" type="BinFileDataSource"/>
 	<dataSource name ="bin" type="BinFileDataSource" />
 	
