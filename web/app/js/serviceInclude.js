@@ -4,20 +4,20 @@ var previousxml = "";
 im3iRuntime= new function im3iRuntime() {
 
     //change this value with the web root of your installation
-	this.unifiServer = 'http://shrek.micc.unifi.it/search-interface/';
+	this.unifiServer = 'http://localhost/Loki/web/';
 
 
     //other configs
-	this.unifiSoapServer = this.unifiServer + 'service/soap_client/server.php/', 
-	this.server = "http://localhost:9090/im3i/"; //'http://bintje-01.hku.nl:9090/im3i/'
-	this.soapServer = this.server + 'webservices/',
-	this.proxy = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&url=',
-	this.proxyhtml = '../php/proxyPlus.php?mimeType=text/html;charset=UTF-8&url=',
-	this.proxytext = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&url=',
-	this.unifiProxytext = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&url=',
-	this.fileUrl = this.server + 'getfile?id=',
-	this.proxyplus = '../php/proxyPlus.php?url=',
-	this.proxyupload = '../php/proxyUpload.php?url=',
+	this.unifiSoapServer = this.unifiServer + 'service/soap_client/server.php';
+	this.server = "";
+	this.soapServer = this.server + 'webservices/';
+	this.proxy = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&url=';
+	this.proxyhtml = '../php/proxyPlus.php?mimeType=text/html;charset=UTF-8&url=';
+	this.proxytext = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&url=';
+	this.unifiProxytext = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&url=';
+	this.fileUrl = this.server + 'getfile?id=';
+	this.proxyplus = '../php/proxyPlus.php?url=';
+	this.proxyupload = '../php/proxyUpload.php?url=';
 
 	this.repository = null;
 	this.path = [];

@@ -13,7 +13,7 @@ More info: http://www.micc.unifi.it/vim/opensource/loki-a-cross-media-search-eng
 Requirements:
 xAMP (Apache HTTP Server + MySQL)
 Tomcat 
-Solr
+Solr 4.7.1
 ImageMagick (http://www.imagemagick.org)
 pdf2svg (http://www.cityinthesky.co.uk/opensource/pdf2svg/)
 pdftk (http://www.pdflabs.com/tools/pdftk-server/)
@@ -28,7 +28,7 @@ Create a database and create the required schema restoring the SQL dump from:
 /install/db/micc_interface_empty.sql.gz
 
 Download the latest version of Solr from:
-http://apache.fastbull.org/lucene/solr/4.7.1/solr-4.7.1.tgz
+https://archive.apache.org/dist/lucene/solr/4.7.1/
 
 Un-tar the file and deploy Solr under Tomcat following this tutorial:
 https://wiki.apache.org/solr/SolrTomcat#Installing_Solr_instances_under_Tomcat
@@ -37,11 +37,10 @@ Copy all the lib JARs from
 /install/solr/lib
 into the Solr installation and link them from solr-config.xml files.
 
-Alternatively you can copy all these files under the Tomcat web app lib/ folder (e.g. ….//WEB-INF/lib/) this is not the best way but it is very consistent.
-
 Copy in the same folder the logging configuration file: from
  solr/example/resources/log4j.properties to Tomcat web app lib folder (e.g. ….//WEB-INF/lib/)
 
+Alternatively you can copy all these files under the Tomcat web app lib/ folder (e.g. ….//WEB-INF/lib/) this is not the best way but it is very consistent.
 
 In solr-config.xml check if this include lines are correctly linking to the jars
 ```
@@ -59,11 +58,17 @@ In solr-config.xml check if it is defined the mysql data import handler
 </requestHandler>
 ```
 
-Modify the following files with your server database, Solr and Tomcat configuration
+#Modify the following files with your server database, Solr and Tomcat configuration
+Rename
+- service/config/db-default.php-dist
+- app/config.php-dist
+into
+- service/config/db-default.php
 - app/config.php
+
+And update path and urls in
 - app/js/config.js
 - app/js/serviceInclude.js
-- service/config/db-default.php
 
 
 Solr

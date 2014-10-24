@@ -26,17 +26,17 @@
 
 var CFG = {
 		//Directory absolute path
-		absolutePath: 'http://shrek.micc.unifi.it/search-interface/app/',
+		absolutePath: 'http://localhost/Loki/web/app/',
 		//Media server path
-		mediaDirPath: 'http://shrek.micc.unifi.it/search-interface/media/',
+		mediaDirPath: 'http://localhost/Loki/web/media/',
 		//Solr path
-		solrCoreUrl: 'http://shrek.micc.unifi.it:8080/search-interface/collection1/',
+		solrCoreUrl: 'http://localhost:8080/solr_471/loki/',
 		//Solr select url for search
-		solrSelectUrl: 'http://shrek.micc.unifi.it:8080/search-interface/collection1/select?',
+		solrSelectUrl: 'http://localhost:8080/solr_471/loki/select?',
 		//Solr Lire plugin path
-		solrLireUrl: 'http://shrek.micc.unifi.it:8080/search-interface/collection1/lireq?',
+		solrLireUrl: 'http://localhost:8080/solr_471/loki/lireq?',
 		//Solr Proxy url
-		solrProxyUrl: 'http://shrek.micc.unifi.it/search-interface/app/php/solrProxy.php',
+		solrProxyUrl: 'http://localhost/Loki/web/app/php/solrProxy.php',
 		//Set distance for LIRE
 		LIREdistanceSearch: 50,
 		LIREdistanceCluster: 30,

@@ -27,14 +27,13 @@
 ?><?php
 	session_start();
 	include ('../config.php');
-	
+
 	//includo il file con le funzioni utilizzate nel pan
 	include 'function.php';
 	
 	$myFile = "log_query.txt";
-	$fh = fopen($myFile, 'a') or die("ERROR");
+	$fh = fopen($myFile, 'a') or die("ERROR LOG");
 	
-	fwrite($fh, $stringData);
 
 	//estrazione dei dati da salvare
 	$film = @$_GET['film'];
@@ -62,7 +61,7 @@
 	." | ".$fps
 	." | ".$ontology;
 	//echo $stringData ;
-	fwrite($fh, $stringData);
+	log_task($stringData);
 	
 	//correzione bug selezione video sul titolo
 	if(isset($_GET['id'])) $cond = " media.id_media ='" . $_GET['id'] . "' ";
@@ -75,7 +74,7 @@
 
 		//controllo se il film gia presente nella tabella
 		$chkquery = "SELECT * FROM media WHERE $cond ";
-
+        log_task($chkquery);
 		//lancio della query
 		$chkresult = mysql_query($chkquery) or die('ERROR');
 		$num_record = mysql_num_rows($chkresult);
@@ -83,7 +82,7 @@
 		//se esito negativo allora lo inserisco
 		if ($num_record == 0) {
 			fclose($fh);
-			die("ERROR");
+			die("ERROR VIDEO NOT FOUND");
 		}
 		else {
 			//estraggo l'id del film
@@ -129,18 +128,19 @@
 		$start_time_second = $starttime/1000;
 		$starttime_point = $starttime;
 		$endtime_point = $endtime;
-		
-		fwrite($fh, "selezionato secondo esportazione : ".$start_time_second."\n");
+
+
+        log_task("selezionato secondo esportazione : ".$start_time_second."\n");
 
 		//estrazione della thumbnail
 		$starttime_point_extraction = sec2hms($start_time_second);
-		fwrite($fh, "selezionato timecode esportazione : ".$starttime_point_extraction."\n");
+        log_task("selezionato timecode esportazione : ".$starttime_point_extraction."\n");
 
 		$thumbnail_name = "$filename-$starttime.png";
 		
 		$command = "ffmpeg -ss ".$starttime_point_extraction." -i ".$miccDirectory."media/video/".$filename." -f image2 -vframes 1 -s 320x240 ".$miccDirectory."media/image/".$thumbnail_name;
 
-		fwrite($fh, "\neseguito: ".$command."\n");
+        log_task("\neseguito: ".$command."\n");
 
 		$result = exec($command);
 
@@ -159,18 +159,18 @@
 				//echo $querys;
 		
 		$stringData = $querys."\n";
-		
-		fwrite($fh, $stringData);
+
+        log_task("\n".$stringData);
 
 		//lancio la query di inserimento del concetto
-		$result = mysql_query($querys) or die('ERROR');
+		$result = mysql_query($querys) or die('ERROR INSERTING NEW ANNOTATIONS');
 		$id_annotations = mysql_insert_id();
 		
 		$mediauri = $thumbnail_name.str_replace('.png', '');
 		
 		$query = "INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, shot_startpoint, shot_endpoint, owner) VALUES (2, '', null , '".$dataserverpath."', '".$mediauri."', null, '".$date."', '".$date."', 0, '".$thumbnail_name."', 0, '".$idfilm."', '".$date."', null, '".$starttime_point."','".$endtime_point."', '".$_SESSION['user_id']."' )";
 		
-		$result = mysql_query($query) or die('ERROR');
+		$result = mysql_query($query) or die('ERROR INSERTING MEDIA');
 	
 		$xml_result = "";
 			
@@ -182,7 +182,7 @@
 
 		// controllo l'esito
 		if (!$result) {
-		   print "ERROR";
+		   print "ERROR INSERTING ANNOTATIONS";
 		}
 		else {
 			if ($num_record != 0) {
@@ -201,8 +201,8 @@
 			}
 			
 			echo $xml_result;
-			
-			fwrite($fh, "\nXML generato nuovo inserimento: $xml_result");
+
+            log_task("\n"."XML generato nuovo inserimento: $xml_result");
 	
 		}
 	} else {

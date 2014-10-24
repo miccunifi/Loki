@@ -1,5 +1,4 @@
 <?php require "../config/server.php" ?>
-<?php require "../config/db.php" ?>
 <?php
 
 /**

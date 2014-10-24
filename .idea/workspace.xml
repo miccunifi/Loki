@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df86734b-efff-4fcd-a2c5-a8d345130c5e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/php/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/media/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/service/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/config.php-dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/service/config/db-default.php-dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/php/cache/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-analysis-extras-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-cell-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-clustering-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-core-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-dataimporthandler-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-dataimporthandler-extras-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-solrj-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-uima-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/service/config/db.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/SetConcept.php" afterPath="$PROJECT_DIR$/web/app/php/SetConcept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/config.js" afterPath="$PROJECT_DIR$/web/app/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/config.php" afterPath="$PROJECT_DIR$/web/app/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/convertPDF.sh" afterPath="$PROJECT_DIR$/web/app/php/convertPDF.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/solr/conf/data-config.xml" afterPath="$PROJECT_DIR$/install/solr/conf/data-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/service/config/db-default.php" afterPath="$PROJECT_DIR$/web/service/config/db-default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/encoding-log.txt" afterPath="$PROJECT_DIR$/web/app/php/encoding-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/service/include/ewcfg50.php" afterPath="$PROJECT_DIR$/web/service/include/ewcfg50.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/function.php" afterPath="$PROJECT_DIR$/web/app/php/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/components/jquery.ui.videocomponent.js" afterPath="$PROJECT_DIR$/web/app/js/components/jquery.ui.videocomponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/serviceInclude.js" afterPath="$PROJECT_DIR$/web/app/js/serviceInclude.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/solr/conf/solrconfig.xml" afterPath="$PROJECT_DIR$/install/solr/conf/solrconfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/upload-log.txt" afterPath="$PROJECT_DIR$/web/app/php/upload-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/uploadMedia.php" afterPath="$PROJECT_DIR$/web/app/php/uploadMedia.php" />
+    </list>
+    <ignored path="Loki.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Loki" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="1" selection-start="2334" selection-end="2334" vertical-scroll-proportion="-13.8" vertical-offset="555" max-vertical-offset="1545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/media/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="14" selection-start="314" selection-end="314" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convertPDF.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/media/document/convertPDF.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convertPDF.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/php/convertPDF.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-23.4" vertical-offset="0" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/php/cache/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/php/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/app/php/cache/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="12" selection-start="15" selection-end="15" vertical-scroll-proportion="0.02255639" vertical-offset="0" max-vertical-offset="665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadMedia.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/php/uploadMedia.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1116" selection-end="1171" vertical-scroll-proportion="43.75" vertical-offset="1245" max-vertical-offset="3105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/web/app/js/config.js" />
+        <option value="$PROJECT_DIR$/web/app/php/convertPDF.sh" />
+        <option value="$PROJECT_DIR$/web/app/php/function.php" />
+        <option value="$PROJECT_DIR$/web/app/php/uploadMedia.php" />
+        <option value="$PROJECT_DIR$/web/app/php/upload-log.txt" />
+        <option value="$PROJECT_DIR$/web/app/php/SetConcept.php" />
+        <option value="$PROJECT_DIR$/web/app/js/components/jquery.ui.videocomponent.js" />
+        <option value="$PROJECT_DIR$/install/solr/conf/data-config.xml" />
+        <option value="$PROJECT_DIR$/install/solr/conf/solrconfig.xml" />
+        <option value="$PROJECT_DIR$/web/service/include/ewcfg50.php" />
+        <option value="$PROJECT_DIR$/web/service/config/db-default.php" />
+        <option value="$PROJECT_DIR$/web/app/config.php" />
+        <option value="$PROJECT_DIR$/web/app/config.php-dist" />
+        <option value="$PROJECT_DIR$/web/app/.gitignore" />
+        <option value="$PROJECT_DIR$/web/app/js/serviceInclude.js" />
+        <option value="$PROJECT_DIR$/web/service/config/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web/media/.gitignore" />
+        <option value="$PROJECT_DIR$/web/app/php/cache/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="46" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="reference.settingsdialog.project.vagrant" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel/blog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/app/php/cache" />
+      <recent name="$PROJECT_DIR$/web/service/config" />
+      <recent name="$PROJECT_DIR$/web/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df86734b-efff-4fcd-a2c5-a8d345130c5e" name="Default" comment="" />
+      <created>1401187936932</created>
+      <updated>1401187936932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="46" width="1440" height="823" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.01724138" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30833334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/app/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="58" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="797" column="34" selection-start="22264" selection-end="22276" vertical-scroll-proportion="0.0" vertical-offset="11691" max-vertical-offset="14115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/serviceInclude.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="437" column="77" selection-start="9724" selection-end="9733" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="12360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/config/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/config/db-default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="50" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="49" selection-start="1302" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/upload/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.34188035" vertical-offset="240" max-vertical-offset="1155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/include/ewmysql50.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/decoder.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/uploadImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/serviceSoapCalls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="611" column="47" selection-start="14889" selection-end="14893" vertical-scroll-proportion="-350.76923" vertical-offset="0" max-vertical-offset="10905" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="69" selection-start="546" selection-end="548" vertical-scroll-proportion="-2.5357144" vertical-offset="1970" max-vertical-offset="2670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/solrCalls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.40953717" vertical-offset="292" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6735537" vertical-offset="1215" max-vertical-offset="4440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="830" column="17" selection-start="22934" selection-end="22936" vertical-scroll-proportion="0.33333334" vertical-offset="12221" max-vertical-offset="14115" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="16" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.13105413" vertical-offset="1033" max-vertical-offset="7545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/updateMedia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="25" selection-start="4552" selection-end="4552" vertical-scroll-proportion="0.6081277" vertical-offset="1396" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/components/jquery.ui.imagecomponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.071429" vertical-offset="4950" max-vertical-offset="11265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/upload-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="344" column="125" selection-start="28378" selection-end="28571" vertical-scroll-proportion="0.87142855" vertical-offset="4550" max-vertical-offset="5250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/components/jquery.ui.videocomponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="796" column="117" selection-start="24159" selection-end="24159" vertical-scroll-proportion="0.48813057" vertical-offset="11611" max-vertical-offset="30015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/soap_client/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1085" column="42" selection-start="35434" selection-end="35434" vertical-scroll-proportion="1.4861538" vertical-offset="15009" max-vertical-offset="30135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/SetConcept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="78" selection-start="5900" selection-end="5900" vertical-scroll-proportion="0.022189349" vertical-offset="2160" max-vertical-offset="2985" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/solr/conf/data-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="48" selection-start="6953" selection-end="6953" vertical-scroll-proportion="-0.36746144" vertical-offset="2032" max-vertical-offset="2745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/solr/conf/solrconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1891" column="0" selection-start="78417" selection-end="78417" vertical-scroll-proportion="37.473827" vertical-offset="1159" max-vertical-offset="28455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/user-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/config/db-default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="334" selection-end="334" vertical-scroll-proportion="0.30478954" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/json/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10965">
+          <folding>
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT idPro..process..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="UPDATE proce..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..process..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT idPro..processstatus..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..process..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..process..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..process..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..process..." />
+            <marker date="1354200668000" expanded="true" signature="-1:-1" placeholder="UPDATE proce..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/config/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/include/ewcfg50.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.1331361" vertical-offset="105" max-vertical-offset="3435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.10885341" vertical-offset="0" max-vertical-offset="689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/config.php-dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="26" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.69424963" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/config/db-default.php-dist">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="0.15306123" vertical-offset="0" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/lib/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.1744186" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/serviceInclude.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="320" selection-end="320" vertical-scroll-proportion="0.24480712" vertical-offset="0" max-vertical-offset="12360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="54" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.6213184" vertical-offset="37" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/service/config/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="1" selection-start="2334" selection-end="2334" vertical-scroll-proportion="-13.8" vertical-offset="555" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/media/audio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/media/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="314" selection-end="314" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/uploadMedia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1116" selection-end="1171" vertical-scroll-proportion="43.75" vertical-offset="1245" max-vertical-offset="3105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/media/document/convertPDF.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/convertPDF.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-23.4" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/cache/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="15" selection-end="15" vertical-scroll-proportion="0.02255639" vertical-offset="0" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -26,16 +26,24 @@
 
 ?><?php
 
-$db_host = '[HOST]';
-$db_user = '[USER]';
-$db_pass = '[DB]';
-$db_name = '[PASSWORD]';
+$db_host = 'localhost';
+$db_user = 'root';
+$db_pass = 'root';
+$db_name = 'loki';
 
-$miccDirectory = "/var/www/search-interface/";
+$miccDirectory = "/Users/giuseppebecchi/Documents/htdocs/Loki/web/";
+$absolutePath = "http://localhost/Loki/web/";
+$solrCoreUrl = 'http://localhost:8080/solr_471/loki/';
+
+
+
+$interfacePath = $absolutePath."app/";
+
 $uploadDir = '/media/';
-$absolutePath = "http://shrek.micc.unifi.it/search-interface/";
-$interfacePath = "http://shrek.micc.unifi.it/search-interface/app/";
-$solrCoreUrl = 'http://shrek.micc.unifi.it:8080/search-interface/collection1/';
+
+
+// for executing pdfinfo by php exec from localhost
+putenv('PATH=' . getenv('PATH') . ':/usr/local/bin');
 
 // connect to db
 $db_connect = mysql_connect($db_host, $db_user , $db_pass);

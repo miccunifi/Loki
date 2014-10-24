@@ -1,314 +1,345 @@
 ---------------------------
-Filename: clocks.mp3
-User: lore.cioni@gmail.com
----------------------------2014-03-14 21:52:34
-Filename: cascata.bmp
-User: lore.cioni@gmail.com
+2014-09-24 11:34:58
+Filename: eva-2013-6.pdf
+User: giuseppebecchi@gmail.comsh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-6.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ eva-2013-6
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-6.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 5
+
+fileSize: 5
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 5 , 'http://localhost/Loki/web/media/document/', 'eva-2013-6', 'eva6', '2014-09-24 11:35:15', '2014-09-24 11:35:15', 0, 'eva-2013-6.pdf', 0, NULL, '2014-09-24 11:35:15', '', '1' ) <?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">21</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-24 10:44:21</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.65</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+Success
 ---------------------------
-2014-03-20 13:34:12
-Filename: 517412447_2.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 13:53:27
-Filename: 2_517531087_1.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:33:16
-Filename: 1_758444_97b59211b2_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:34:38
-Filename: 2_2351825712_14efcc0030_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:35:40
-Filename: 3_2387904666_8e2448e7a8_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:36:40
-Filename: 4_2748096606_6ee6dc7de2_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:37:44
-Filename: 5_2789961797_e854ee60f3_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:39:26
-Filename: 6_2833905173_df0b152af3_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:40:26
-Filename: 7_2918366560_f9dcce531e_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:41:29
-Filename: 8_2932256886_480df697a5_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:42:19
-Filename: 9_2946258694_8a0c9b53f6_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 15:57:32
-Filename: 1_cairo-speech.mp3
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 16:00:14
-Filename: 2_climate-energy-speech.mp3
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 16:02:19
-Filename: mandela-speech.mp3
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 16:14:15
-Filename: 1_jobs_act.pdf
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 16:15:23
-Filename: 2_obama_new_energy_0804.pdf
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 16:16:04
-Filename: 3_birth-certificate-long-form.pdf
-User: andreaferracani@gmail.com
----------------------------
-2014-03-20 16:17:27
-Filename: 4_president27sclimateactionplan.pdf
-User: andreaferracani@gmail.com
----------------------------
-2014-03-21 11:58:30
-Filename: 52958-nightofubuntu_1600x1200.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-21 12:00:03
-Filename: madness-muse.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-21 12:04:11
-Filename: twitter-logo.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-21 12:10:25
-Filename: bb.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-21 20:44:36
-Filename: schedaspecialita.doc
-User: lore.cioni@gmail.com
----------------------------
-2014-03-21 21:21:04
-Filename: 80058-hardy_darkorange.png
-User: lore.cioni@gmail.com
----------------------------
-2014-03-25 12:01:30
-Filename: 3_517531647_2.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-25 12:18:03
-Filename: 5_learning-from-obama.pdf
-User: andreaferracani@gmail.com
----------------------------
-2014-03-25 12:47:44
-Filename: 4_education-speech.mp3
-User: andreaferracani@gmail.com
----------------------------
-2014-03-25 13:05:02
-Filename: 10_3006060006_9ecf0ef899_o.jpg
-User: andreaferracani@gmail.com
----------------------------
-2014-03-25 14:43:25
-Filename: 4_517589518_2.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-25 15:17:34
-Filename: 5_fiscal-speech.mp3
-User: andreaferracani@gmail.com
----------------------------
-2014-03-25 15:31:59
-Filename: barackobamasinginggetluckybydaftpunk(ft.pharrell).mp4
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-25 16:21:46
-Filename: obama-daft-punk-get-lucky-elite-daily-800x400.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-25 16:21:48
-Filename: obama-daft-punk-get-lucky-elite-daily-800x400.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-25 16:21:50
-Filename: obama-daft-punk-get-lucky-elite-daily-800x400.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-25 16:21:51
-Filename: obama-daft-punk-get-lucky-elite-daily-800x400.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-25 16:29:44
-Filename: president-obama-in-the-white-house.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-26 13:43:57
-Filename: wp_yoshimain_800x600_001.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 13:45:58
-Filename: wp_yoshimain_1024x768_001.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 14:25:26
-Filename: firenzeneve.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 14:26:38
-Filename: firenzeneve.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 14:36:25
-Filename: uovouniverso.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 14:36:49
-Filename: uovouniverso.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 14:40:05
-Filename: castagno-disegni-da-colorare.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 14:41:35
-Filename: castagno-disegni-da-colorare.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 16:13:15
-Filename: logo_agesci.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 16:23:30
-Filename: carenevale-scout.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 16:25:28
-Filename: promessa1.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 16:27:42
-Filename: ce2005.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 16:43:43
-Filename: obama-time.jpeg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-26 18:15:59
-Filename: 5_517276592_2.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-26 18:43:57
-Filename: 6_517937638_2.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-27 00:30:18
-Filename: dscf2443.jpg
+2014-09-24 11:36:26
+Filename: eva-2013-7.pdf
 User: giuseppebecchi@gmail.com
----------------------------
-2014-03-27 09:45:57
-Filename: tramonto.jpg
-User: lore.cioni@gmail.com
----------------------------
-2014-03-27 11:09:42
-Filename: 7_517300322_1.mp4
-User: andreaferracani@gmail.com
----------------------------
-2014-03-27 12:25:53
-Filename: gui-insights_old.png
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-27 12:39:23
-Filename: imgres.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-27 12:39:52
-Filename: imgres.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-27 12:40:35
-Filename: imgres-1.jpg
-User: d.pezzatini@gmail.com
----------------------------
-2014-03-28 13:53:01
-Filename: missionimpossible.avi
-User: lore.cioni@gmail.com
----------------------------
-2014-04-01 21:08:02
-Filename: elfa.jpg
-User: lore.cioni@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+-----------    convertPDF   --------------
+
+-----------    Wed Sep 24 11:36:26 CEST 2014   --------------
+inputfile /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-7.pdf
+baseDir /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/
+name eva-2013-7
+/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/eva-2013-7/page_%d.jpg
+
+TASK1 | creating video thumnails
+command: convert -resize 300 -density 150x150 "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-7.pdf" "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/eva-2013-7/page_%d.jpg"
+
+TASK2 | convert to SVG pages
+command: pdf2svg /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-7.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/eva-2013-7/page_%d.svg all
+dyld: Symbol not found: __cg_jpeg_resync_to_restart
+  Referenced from: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  Expected in: /Applications/MAMP/Library/lib/libJPEG.dylib
+ in /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO
+convertPDF.sh: line 35:  6525 Trace/BPT trap: 5       pdf2svg $inputfile $outputSvg all
+
+TASK3 | splitting pages
+pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-7.pdf burst output /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/eva-2013-7/page_%d.pdf
+
+-----------    converPDF completed  --------------
+sh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-7.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ eva-2013-7 >>upload-log.txt 2>&1
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-7.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 5
+
+fileSize: 5
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 5 , 'http://localhost/Loki/web/media/document/', 'eva-2013-7', 'eva', '2014-09-24 11:36:44', '2014-09-24 11:36:44', 0, 'eva-2013-7.pdf', 0, NULL, '2014-09-24 11:36:44', '', '1' ) <?xml version="1.0" encoding="UTF-8"?>
 <response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">8</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-01 17:21:11</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.44</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">19</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-24 11:55:30</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.69</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+Success
+---------------------------
+2014-09-24 11:53:05
+Filename: eva-2013-8.pdf
+User: giuseppebecchi@gmail.com
+-----------    convertPDF   --------------
+
+-----------    Wed Sep 24 11:53:05 CEST 2014   --------------
+inputfile /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-8.pdf
+baseDir /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/
+name eva-2013-8
+/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/eva-2013-8/page_%d.jpg
+
+TASK1 | creating video thumnails
+command: convert -resize 300 -density 150x150 "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-8.pdf" "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/eva-2013-8/page_%d.jpg"
+
+TASK2 | convert to SVG pages
+command: pdf2svg /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-8.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/eva-2013-8/page_%d.svg all
+
+TASK3 | splitting pages
+pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-8.pdf burst output /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/eva-2013-8/page_%d.pdf
+
+-----------    converPDF completed  --------------
+sh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-8.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ eva-2013-8 >>upload-log.txt 2>&1
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-8.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 5
+
+fileSize: 5
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 5 , 'http://localhost/Loki/web/media/document/', 'eva-2013-8', 'eva8', '2014-09-24 11:53:16', '2014-09-24 11:53:16', 0, 'eva-2013-8.pdf', 0, NULL, '2014-09-24 11:53:16', '', '1' ) <?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">21</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-24 11:56:59</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.57</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+Success
+---------------------------
+2014-09-26 11:44:46
+Filename: eva-2013-9.pdf
+User: giuseppebecchi@gmail.com
+-----------    convertPDF   --------------
+
+-----------    Fri Sep 26 11:44:47 CEST 2014   --------------
+inputfile /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-9.pdf
+baseDir /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/
+name eva-2013-9
+/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/eva-2013-9/page_%d.jpg
+
+TASK1 | creating video thumnails
+command: convert -resize 300 -density 150x150 "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-9.pdf" "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/eva-2013-9/page_%d.jpg"
+
+TASK2 | convert to SVG pages
+command: pdf2svg /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-9.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/eva-2013-9/page_%d.svg all
+
+TASK3 | splitting pages
+pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-9.pdf burst output /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/eva-2013-9/page_%d.pdf
+
+-----------    converPDF completed  --------------
+sh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-9.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ eva-2013-9 >>upload-log.txt 2>&1
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/eva-2013-9.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 5
+
+fileSize: 5
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 5 , 'http://localhost/Loki/web/media/document/', 'eva-2013-9', 'eva', '2014-09-26 11:44:58', '2014-09-26 11:44:58', 0, 'eva-2013-9.pdf', 0, NULL, '2014-09-26 11:44:58', 'eva9', '1' ) <?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">34</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-24 12:13:31</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.52</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+Success
+---------------------------
+2014-09-26 12:13:10
+Filename: staiconemergency.pdf
+User: giuseppebecchi@gmail.com
+-----------    convertPDF   --------------
+
+-----------    Fri Sep 26 12:13:10 CEST 2014   --------------
+inputfile /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf
+baseDir /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/
+name staiconemergency
+/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency/page_%d.jpg
+
+TASK1 | creating video thumnails
+command: convert -resize 300 -density 150x150 "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf" "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency/page_%d.jpg"
+
+TASK2 | convert to SVG pages
+command: pdf2svg /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/staiconemergency/page_%d.svg all
+
+TASK3 | splitting pages
+pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf burst output /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/staiconemergency/page_%d.pdf
+
+-----------    converPDF completed  --------------
+sh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ staiconemergency >>upload-log.txt 2>&1
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 1
+
+fileSize: 1http://shrek.micc.unifi.it:8080/search-interface/collection1/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">21</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-26 12:05:38</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.76</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
 </response>
 
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 1 , 'http://localhost/Loki/web/media/document/', 'staiconemergency', 'emergency', '2014-09-26 12:13:13', '2014-09-26 12:13:13', 0, 'staiconemergency.pdf', 0, NULL, '2014-09-26 12:13:13', '', '1' ) Success
 ---------------------------
-2014-04-02 11:52:19
-Filename: obama_budget.mp4
-User: andreaferracani@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+2014-09-26 12:15:46
+Filename: staiconemergency.pdf
+User: giuseppebecchi@gmail.com
+-----------    convertPDF   --------------
+
+-----------    Fri Sep 26 12:15:46 CEST 2014   --------------
+inputfile /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf
+baseDir /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/
+name staiconemergency
+mkdir: /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency: File exists
+mkdir: /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/staiconemergency: File exists
+mkdir: /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/staiconemergency: File exists
+/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency/page_%d.jpg
+
+TASK1 | creating video thumnails
+command: convert -resize 300 -density 150x150 "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf" "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency/page_%d.jpg"
+
+TASK2 | convert to SVG pages
+command: pdf2svg /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/staiconemergency/page_%d.svg all
+
+TASK3 | splitting pages
+pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf burst output /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/staiconemergency/page_%d.pdf
+
+-----------    converPDF completed  --------------
+sh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ staiconemergency >>upload-log.txt 2>&1
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 1
+
+fileSize: 1http://http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 1 , 'http://localhost/Loki/web/media/document/', 'staiconemergency', 'emrg2', '2014-09-26 12:15:49', '2014-09-26 12:15:49', 0, 'staiconemergency.pdf', 0, NULL, '2014-09-26 12:15:49', '', '1' ) Success
+---------------------------
+2014-09-26 12:17:18
+Filename: staiconemergency.pdf
+User: giuseppebecchi@gmail.com
+-----------    convertPDF   --------------
+
+-----------    Fri Sep 26 12:17:18 CEST 2014   --------------
+inputfile /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf
+baseDir /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/
+name staiconemergency
+mkdir: /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency: File exists
+mkdir: /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/staiconemergency: File exists
+mkdir: /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/staiconemergency: File exists
+/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency/page_%d.jpg
+
+TASK1 | creating video thumnails
+command: convert -resize 300 -density 150x150 "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf" "/Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_thumb/staiconemergency/page_%d.jpg"
+
+TASK2 | convert to SVG pages
+command: pdf2svg /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_svg/staiconemergency/page_%d.svg all
+
+TASK3 | splitting pages
+pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf burst output /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document_pages_pdf/staiconemergency/page_%d.pdf
+
+-----------    converPDF completed  --------------
+sh convertPDF.sh /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/ staiconemergency >>upload-log.txt 2>&1
+ pdftk /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/document/staiconemergency.pdf dump_data | grep NumberOfPages
+Result: NumberOfPages: 1
+
+fileSize: 1http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
 <response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">6</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-02 11:32:32</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.40</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">10</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.50</str><str name="Total Requests made to DataSource">3</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-02 11:53:22</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">1</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.94</str><str name="Total Requests made to DataSource">4</str><str name="Total Rows Fetched">3</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-02 11:53:22</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">15</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">8</str><str name="Total Rows Fetched">26</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-26 12:10:00</str><str name="">Indexing completed. Added/Updated: 12 documents. Deleted 0 documents.</str><str name="Committed">2014-09-26 12:10:01</str><str name="Total Documents Processed">12</str><str name="Time taken">0:0:6.360</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
 </response>
 
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (4, '', 1 , 'http://localhost/Loki/web/media/document/', 'staiconemergency', 'emerg', '2014-09-26 12:17:20', '2014-09-26 12:17:20', 0, 'staiconemergency.pdf', 0, NULL, '2014-09-26 12:17:20', '', '1' ) Success
 ---------------------------
-2014-04-03 14:32:31
-Filename: obama-climate-change.mp4
-User: lore.cioni@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+2014-09-26 15:32:11
+Filename: the-mission.mp3
+User: giuseppebecchi@gmail.comhttp://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (3, '', 0 , 'http://localhost/Loki/web/media/audio/', 'the-mission', 'mission', '2014-09-26 15:32:14', '2014-09-26 15:32:14', 0, 'the-mission.mp3', 0, NULL, '2014-09-26 15:32:14', '', '1' ) Success
+---------------------------
+2014-09-26 15:43:01
+Filename: the-mission.mp3
+User: giuseppebecchi@gmail.com
+Media type: audio
+ID Media type: 3
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
 <response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">5</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 14:00:19</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.41</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">0</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.32</str><str name="Total Requests made to DataSource">2</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 14:38:13</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">0</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.60</str><str name="Total Requests made to DataSource">4</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 14:38:13</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">159</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse"/><lst name="statusMessages"/><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
 </response>
 
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (3, '', 0 , 'http://localhost/Loki/web/media/audio/', 'the-mission', 'audio', '2014-09-26 15:43:03', '2014-09-26 15:43:03', 0, 'the-mission.mp3', 0, NULL, '2014-09-26 15:43:03', '', '1' ) Success
 ---------------------------
-2014-04-03 15:03:57
-Filename: obama-climate-change.jpg
-User: lore.cioni@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+2014-09-26 15:58:46
+Filename: the-mission.mp3
+User: giuseppebecchi@gmail.com
+Media type: audio
+ID Media type: 3
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
 <response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">6</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 15:00:30</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.40</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">0</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.37</str><str name="Total Requests made to DataSource">2</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 15:03:58</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">0</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.76</str><str name="Total Requests made to DataSource">4</str><str name="Total Rows Fetched">1</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 15:03:58</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">10</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Time Elapsed">0:3:9.224</str><str name="Total Requests made to DataSource">11</str><str name="Total Rows Fetched">57</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-26 15:55:45</str><str name="">Indexing failed. Rolled back all changes.</str><str name="Rolledback">2014-09-26 15:55:56</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
 </response>
 
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (3, '', 0 , 'http://localhost/Loki/web/media/audio/', 'the-mission', 'audio', '2014-09-26 15:58:49', '2014-09-26 15:58:49', 0, 'the-mission.mp3', 0, NULL, '2014-09-26 15:58:49', 'audio', '1' ) Success
 ---------------------------
-2014-04-04 12:06:26
-Filename: fathers-day-speech.mp3
-User: andreaferracani@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+2014-09-26 16:03:03
+Filename: ilgattoelavolpe.mp3
+User: giuseppebecchi@gmail.com
+Media type: audio
+ID Media type: 3
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
 <response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">14</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">7</str><str name="Total Rows Fetched">8</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-03 16:06:56</str><str name="">Indexing completed. Added/Updated: 1 documents. Deleted 0 documents.</str><str name="Committed">2014-04-03 16:06:56</str><str name="Total Documents Processed">1</str><str name="Time taken">0:0:0.777</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">0</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.50</str><str name="Total Requests made to DataSource">5</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-04 12:07:15</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
-</response>
-<?xml version="1.0" encoding="UTF-8"?>
-<response>
-<lst name="responseHeader"><int name="status">0</int><int name="QTime">0</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse">A command is still running...</str><lst name="statusMessages"><str name="Time Elapsed">0:0:0.78</str><str name="Total Requests made to DataSource">7</str><str name="Total Rows Fetched">4</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-04-04 12:07:15</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">11</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-26 15:59:04</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.133</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
 </response>
 
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (3, '', 0 , 'http://localhost/Loki/web/media/audio/', 'ilgattoelavolpe', 'il gatto e la volpe', '2014-09-26 16:03:06', '2014-09-26 16:03:06', 0, 'ilgattoelavolpe.mp3', 0, NULL, '2014-09-26 16:03:06', '', '1' ) Success
+---------------------------
+2014-09-26 16:04:38
+Filename: movie.mp4
+User: giuseppebecchi@gmail.com
+Media type: video
+ID Media type: 1
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">11</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-09-26 16:03:48</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.146</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (1, '', 0 , 'http://localhost/Loki/web/media/video/', 'movie', 'orso', '2014-09-26 16:04:38', '2014-09-26 16:04:38', 0, 'movie.mp4', 0, NULL, '2014-09-26 16:04:38', '', '1' ) Success
+
+
+Registrazione:  | film:  | orso | orso | 2514 | 3514 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  
+
+Registrazione:  | film:  | orso | orso | 2514 | 3514 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 2.514
+selezionato timecode esportazione : 0:00:02
+
+eseguito: ffmpeg -ss 0:00:02 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-2514.png
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'orso', '2514', '3514', '10', '2', '2','movie.mp4-2514.png')
+
+
+Registrazione:  | film:  | orso | orso | 2514 | 3514 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 2.514
+selezionato timecode esportazione : 0:00:02
+
+eseguito: ffmpeg -ss 0:00:02 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-2514.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'orso', '2514', '3514', '10', '2', '2','movie.mp4-2514.png')
+
+
+Registrazione:  | film:  | orso | orso | 2514 | 3514 |  | 1 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 2.514
+selezionato timecode esportazione : 0:00:02
+
+eseguito: ffmpeg -ss 0:00:02 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-2514.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'orso', '2514', '3514', '10', '1', '2','movie.mp4-2514.png')
+
+XML generato nuovo inserimento: <?xml version="1.0" encoding="UTF-8"?>
+<response><annotations><sourceId>16</sourceId><start>2514</start><keyword>orso</keyword><id>36</id></annotations></response>
+
+Registrazione:  | film:  | fiume | fiume | 10224 | 11224 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 10.224
+selezionato timecode esportazione : 0:00:10
+
+eseguito: ffmpeg -ss 0:00:10 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-10224.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'fiume', '10224', '11224', '10', '2', '2','movie.mp4-10224.png')
+
+
+Registrazione:  | film:  | pesca | pesca | 5493 | 6493 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 5.493
+selezionato timecode esportazione : 0:00:05
+
+eseguito: ffmpeg -ss 0:00:05 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-5493.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'pesca', '5493', '6493', '10', '2', '2','movie.mp4-5493.png')
+
+
+Registrazione:  | film:  | pesca | pesca | 5493 | 6493 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 5.493
+selezionato timecode esportazione : 0:00:05
+
+eseguito: ffmpeg -ss 0:00:05 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-5493.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'pesca', '5493', '6493', '10', '2', '2','movie.mp4-5493.png')
+
+
+Registrazione:  | film:  | pesca | pesca | 5493 | 6493 |  | 1 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 5.493
+selezionato timecode esportazione : 0:00:05
+
+eseguito: ffmpeg -ss 0:00:05 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-5493.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'pesca', '5493', '6493', '10', '1', '2','movie.mp4-5493.png')
+
+XML generato nuovo inserimento: <?xml version="1.0" encoding="UTF-8"?>
+<response><annotations><sourceId>16</sourceId><start>5493</start><keyword>pesca</keyword><id>41</id></annotations></response>
+
+Registrazione:  | film:  | pesciolino | pesciolino | 5370 | 6370 |  | 2 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 5.37
+selezionato timecode esportazione : 0:00:05
+
+eseguito: ffmpeg -ss 0:00:05 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-5370.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'pesciolino', '5370', '6370', '10', '2', '2','movie.mp4-5370.png')
+
+
+Registrazione:  | film:  | zampa | zampa | 1482 | 2482 |  | 1 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 1.482
+selezionato timecode esportazione : 0:00:01
+
+eseguito: ffmpeg -ss 0:00:01 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-1482.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'zampa', '1482', '2482', '10', '1', '2','movie.mp4-1482.png')
+
+XML generato nuovo inserimento: <?xml version="1.0" encoding="UTF-8"?>
+<response><annotations><sourceId>16</sourceId><start>1482</start><keyword>zampa</keyword><id>43</id></annotations></response>

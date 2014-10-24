@@ -794,7 +794,7 @@ $.widget( "ui.videocomponent", {
 		
 		var endPoint = timePoint + 1000;
 		
-		var params = 'id=' + opts.sourceId + '&mode=free&starttime=' + timePoint + '&endtime=' + endPoint + '&owner=2&conceptname=' + text;
+		var params = 'id=' + opts.sourceId + '&mode=free&starttime=' + timePoint + '&endtime=' + endPoint + '&owner=1&conceptname=' + text;
 		
 		console.log(params);
 		

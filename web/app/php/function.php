@@ -128,15 +128,47 @@ function sec2hms($sec, $padHours = false) {
 function log_query($query) {
 
 
-	$myFile = "log_query.txt";
-	$fh = fopen($myFile, 'a') or die("can't open file");
-	
-	fwrite($fh, "\n".$query);
+    $myFile = "log_query.txt";
+    $fh = fopen($myFile, 'a') or die("can't open file");
 
-	fclose($fh);
+    fwrite($fh, "\n".$query);
+
+    fclose($fh);
 
 }
 
+function log_task($log_text, $txt_file = "upload-log.txt") {
+
+    $fh = fopen($txt_file, 'a') or die("can't open file");
+    fwrite($fh, $log_text);
+    fclose($fh);
+
+}
+
+
+
+function getPDFPages($document)
+{
+    $cmd = "/path/to/pdfinfo";           // Linux
+    $cmd = "C:\\path\\to\\pdfinfo.exe";  // Windows
+
+    // Parse entire output
+    exec("$cmd $document", $output);
+
+    // Iterate through lines
+    $pagecount = 0;
+    foreach($output as $op)
+    {
+        // Extract the number
+        if(preg_match("/Pages:\s*(\d+)/i", $op, $matches) === 1)
+        {
+            $pagecount = intval($matches[1]);
+            break;
+        }
+    }
+
+    return $pagecount;
+}
 
 
 ?>
