@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df86734b-efff-4fcd-a2c5-a8d345130c5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/php/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/media/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/service/config/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/config.php-dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/service/config/db-default.php-dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app/php/cache/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-analysis-extras-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-cell-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-clustering-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-core-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-dataimporthandler-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-dataimporthandler-extras-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-solrj-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/install/solr/lib/solr-uima-4.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/service/config/db.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/SetConcept.php" afterPath="$PROJECT_DIR$/web/app/php/SetConcept.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/config.js" afterPath="$PROJECT_DIR$/web/app/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/config.php" afterPath="$PROJECT_DIR$/web/app/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/convertPDF.sh" afterPath="$PROJECT_DIR$/web/app/php/convertPDF.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/solr/conf/data-config.xml" afterPath="$PROJECT_DIR$/install/solr/conf/data-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/service/config/db-default.php" afterPath="$PROJECT_DIR$/web/service/config/db-default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/encoding-log.txt" afterPath="$PROJECT_DIR$/web/app/php/encoding-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/service/include/ewcfg50.php" afterPath="$PROJECT_DIR$/web/service/include/ewcfg50.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/function.php" afterPath="$PROJECT_DIR$/web/app/php/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/components/jquery.ui.videocomponent.js" afterPath="$PROJECT_DIR$/web/app/js/components/jquery.ui.videocomponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/serviceInclude.js" afterPath="$PROJECT_DIR$/web/app/js/serviceInclude.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/solr/conf/solrconfig.xml" afterPath="$PROJECT_DIR$/install/solr/conf/solrconfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/upload-log.txt" afterPath="$PROJECT_DIR$/web/app/php/upload-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/uploadMedia.php" afterPath="$PROJECT_DIR$/web/app/php/uploadMedia.php" />
     </list>
     <ignored path="Loki.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,80 +24,7 @@
     <favorites_list name="Loki" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="1" selection-start="2334" selection-end="2334" vertical-scroll-proportion="-13.8" vertical-offset="555" max-vertical-offset="1545">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/media/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="314" selection-end="314" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convertPDF.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/media/document/convertPDF.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convertPDF.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/php/convertPDF.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-23.4" vertical-offset="0" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/php/cache/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/php/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/app/php/cache/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="15" selection-end="15" vertical-scroll-proportion="0.02255639" vertical-offset="0" max-vertical-offset="665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadMedia.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/php/uploadMedia.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1116" selection-end="1171" vertical-scroll-proportion="43.75" vertical-offset="1245" max-vertical-offset="3105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -156,9 +53,9 @@
         <option value="$PROJECT_DIR$/web/app/.gitignore" />
         <option value="$PROJECT_DIR$/web/app/js/serviceInclude.js" />
         <option value="$PROJECT_DIR$/web/service/config/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/media/.gitignore" />
         <option value="$PROJECT_DIR$/web/app/php/cache/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -609,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="2334" selection-end="2334" vertical-scroll-proportion="-13.8" vertical-offset="555" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/media/audio/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
@@ -623,16 +513,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/media/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="314" selection-end="314" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="390">
+        <state line="25" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.57515335" vertical-offset="0" max-vertical-offset="1635">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/php/uploadMedia.php">
+    <entry file="file://$PROJECT_DIR$/web/media/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1116" selection-end="1171" vertical-scroll-proportion="43.75" vertical-offset="1245" max-vertical-offset="3105">
+        <state line="16" column="14" selection-start="314" selection-end="314" vertical-scroll-proportion="0.36090225" vertical-offset="0" max-vertical-offset="665">
           <folding />
         </state>
       </provider>
@@ -646,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/php/convertPDF.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-23.4" vertical-offset="0" max-vertical-offset="690">
+        <state line="39" column="0" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.8502907" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
@@ -667,7 +557,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/php/cache/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="15" selection-end="15" vertical-scroll-proportion="0.02255639" vertical-offset="0" max-vertical-offset="665">
+        <state line="1" column="12" selection-start="15" selection-end="15" vertical-scroll-proportion="0.021802325" vertical-offset="0" max-vertical-offset="688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/uploadMedia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1116" selection-end="1171" vertical-scroll-proportion="-1.5532545" vertical-offset="1245" max-vertical-offset="3105">
           <folding />
         </state>
       </provider>

@@ -12,11 +12,17 @@ More info: http://www.micc.unifi.it/vim/opensource/loki-a-cross-media-search-eng
 
 Requirements:
 xAMP (Apache HTTP Server + MySQL)
-Tomcat 
+
+Tomcat
+
 Solr 4.7.1
+
 ImageMagick (http://www.imagemagick.org)
+
 pdf2svg (http://www.cityinthesky.co.uk/opensource/pdf2svg/)
+
 pdftk (http://www.pdflabs.com/tools/pdftk-server/)
+
 ffmpeg (http://www.ffmpeg.org/)
 
 
