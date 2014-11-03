@@ -1896,6 +1896,8 @@ function insert_annotation($annotation){
 			    
 		
 		}
+
+
 		
 		
 		//check if concept already exists in concept table
@@ -1981,7 +1983,11 @@ function insert_annotation($annotation){
 		
 			
 			}
-		
+        //aggiorno il campo last_modified del media per consentirne l'indicizzazione
+        $now = date('Y-m-d H:i:s');
+        $querys = "UPDATE ".EW_CONN_DB_MEDIA.".media SET last_modified = '".$now."' WHERE id_media = '".$id_media."'";
+        $conn->Execute($querys);
+
 		
 		$annotation_insert = array(
 					   'agent' => "AnnotationToolV1.2",

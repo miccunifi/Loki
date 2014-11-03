@@ -32,7 +32,7 @@ include ('SmartImage.class.php');
 include ('../config.php');
 include ('./function.php');
 $images = array("gif", "jpeg", "jpg", "png");
-$videos = array("mp4", "mpeg", "mov", "avi", "wmv", "mpg");
+$videos = array("mp4", "mpeg", "mov", "avi", "wmv", "mpg", "m4v");
 $documents = array("pdf", "doc", "ods", "odt", "docx");
 $audios = array("mp3", "wma");
 if(isset($_FILES['myfile'])){
@@ -66,7 +66,7 @@ if(isset($_FILES['myfile'])){
 			echo "Error: File too large";
 		}
 		else {
-			$log_text = "---------------------------\n";
+			$log_text = "\n\n\n\n---------------------------    STARTING PROCESS    ---------------------------\n";
 			$today = date("Y-m-d H:i:s");
 			$log_text .= $today;
 			$filename = str_replace("'", "", str_replace(" ", "", $_FILES["myfile"]["name"]));
@@ -89,7 +89,11 @@ if(isset($_FILES['myfile'])){
 			if($id_media_type == 1){ //Video case
 				$out_file = $mediauri.'.mp4';
 				//Generates also video thumbnail
-				exec("sh decoder.sh ".$miccDirectory."media/video/".$filename." ".$miccDirectory."media/video/thumb/".$out_file.".jpg 1>encoding-log.txt 2>&1");
+                $encoding_script = "sh decoder.sh ".$miccDirectory."media/video/".$filename." ".$miccDirectory."media/video/thumb/".$out_file.".jpg 1>>encoding-log.txt 2>&1";
+                log_task("\n\nScript eseguito per processing:\n");
+                log_task($encoding_script);
+				exec($encoding_script);
+
 				$filename = $out_file;
 			} elseif ($id_media_type == 2){ //Image case
 				//Resizing image
@@ -160,7 +164,7 @@ if(isset($_FILES['myfile'])){
 
             $insert_query = "INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (".$id_media_type.", '', ".$fileSize." , '".$dataserverpath."', '".$mediauri."', '".$title."', '".$date."', '".$date."', 0, '".$filename."', 0, NULL, '".$date."', '".$author."', '".$_SESSION['user_id']."' )";
 			$query = mysql_query($insert_query);
-            $log_text .= "\nInsert query: $insert_query ";
+            //$log_text .= "\nInsert query: $insert_query ";
 
             if(mysql_affected_rows()!= -1){
 				$id_media = mysql_insert_id();
@@ -196,20 +200,27 @@ if(isset($_FILES['myfile'])){
 
             $log_text .= "\n";
 
-            $txt = "upload-log.txt";
-            $fh = fopen($txt, 'a') or die("can't open file");
-            fwrite($fh, $log_text);
-            fclose($fh);
+
+            log_task($log_text);
+
 
 
 
 		}
 	} else {
 		echo 'Error: not allowed extension';
+        log_task('Error: not allowed extension');
 	}
 } else {
 	echo 'Error: file not set';
+
+    log_task('Error: file not set');
 }
+
+
+
+log_task('\n\n---------------------------    FINISH PROCESS    ---------------------------\n\n\n\n\n');
+
 
 function curl($url){
 	$ch = curl_init();

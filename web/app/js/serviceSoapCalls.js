@@ -340,6 +340,8 @@ im3iSoapCalls = {
 				returnJson : false,
 				serviceOwner : soapServer,
 				success : function(data) {
+
+                    solr.index();
 	
 					if (typeof (returnFunction) == 'function') {
 						returnFunction(data);
@@ -351,7 +353,7 @@ im3iSoapCalls = {
 					}
 				}
 		});
-		solr.index();
+
 	},
 	
 	addAnnotationImage : function(agent, comment, sessionId, confidence,
@@ -410,6 +412,8 @@ im3iSoapCalls = {
 			serviceOwner : soapServer,
 			success : function(data) {
 
+                solr.index();
+
 				if (typeof (returnFunction) == 'function') {
 					returnFunction(data);
 				}
@@ -420,7 +424,7 @@ im3iSoapCalls = {
 				}
 			}
 		});
-		solr.index();
+
 	},
 
 	addAnnotationDocument : function(agent, comment, sessionId, confidence,
@@ -480,6 +484,8 @@ im3iSoapCalls = {
 			serviceOwner : soapServer,
 			success : function(data) {
 
+                solr.index();
+
 				if (typeof (returnFunction) == 'function') {
 					returnFunction(data);
 				}
@@ -490,7 +496,7 @@ im3iSoapCalls = {
 				}
 			}
 		});
-		solr.index();
+
 	},
 
 	updateAnnotation : function(agent, comment, sessionId, confidence,
