@@ -342,4 +342,80 @@ eseguito: ffmpeg -ss 0:00:01 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/
 INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'zampa', '1482', '2482', '10', '1', '2','movie.mp4-1482.png')
 
 XML generato nuovo inserimento: <?xml version="1.0" encoding="UTF-8"?>
-<response><annotations><sourceId>16</sourceId><start>1482</start><keyword>zampa</keyword><id>43</id></annotations></response>
+<response><annotations><sourceId>16</sourceId><start>1482</start><keyword>zampa</keyword><id>43</id></annotations></response>---------------------------
+2014-10-24 15:19:12
+Filename: face.jpeg
+User: giuseppebecchi2@gmail.com
+Media type: image
+ID Media type: 2
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">21</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-10-24 15:01:14</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.996</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (2, '', 0 , 'http://localhost/Loki/web/media/image/', 'face', 'face', '2014-10-24 15:19:12', '2014-10-24 15:19:12', 0, 'face.jpeg', 0, NULL, '2014-10-24 15:19:12', '', '2' ) Success
+---------------------------
+2014-10-28 14:24:50
+Filename: face2.jpeg
+User: giuseppebecchi2@gmail.com
+Media type: image
+ID Media type: 2
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">115</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">busy</str><str name="importResponse"/><lst name="statusMessages"/><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (2, '', 0 , 'http://localhost/Loki/web/media/image/', 'face2', 'face', '2014-10-28 14:24:50', '2014-10-28 14:24:50', 0, 'face2.jpeg', 0, NULL, '2014-10-28 14:24:50', '', '2' ) Success
+---------------------------
+2014-10-28 14:27:43
+Filename: movie-bear.mp4
+User: giuseppebecchi2@gmail.com
+Media type: video
+ID Media type: 1
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">56</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">7</str><str name="Total Rows Fetched">4</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-10-28 14:24:54</str><str name="">Indexing completed. Added/Updated: 1 documents. Deleted 0 documents.</str><str name="Committed">2014-10-28 14:24:54</str><str name="Total Documents Processed">1</str><str name="Time taken">0:0:3.859</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+
+Insert query: INSERT INTO media(id_media_types, uri, filesize, dataserverpath, mediauri, title, created, modified, fps, filename, processed_status, id_media_video, last_modified, author, owner) VALUES (1, '', 0 , 'http://localhost/Loki/web/media/video/', 'movie-bear', 'bear', '2014-10-28 14:27:44', '2014-10-28 14:27:44', 0, 'movie-bear.mp4', 0, NULL, '2014-10-28 14:27:44', '', '2' ) Success
+
+
+Registrazione:  | film:  | fishing | fishing | 11263 | 12263 |  | 1 | free |  | SELECT * FROM media WHERE  media.id_media ='16'  selezionato secondo esportazione : 11.263
+selezionato timecode esportazione : 0:00:11
+
+eseguito: ffmpeg -ss 0:00:11 -i /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/video/movie.mp4 -f image2 -vframes 1 -s 320x240 /Users/giuseppebecchi/Documents/htdocs/Loki/web/media/image/movie.mp4-11263.png
+
+INSERT INTO annotations (id_media, title, timepoint, endpoint, id_concepts, id_users, id_annotations_types,thumbnail) VALUES ('16', 'fishing', '11263', '12263', '10', '1', '2','movie.mp4-11263.png')
+
+XML generato nuovo inserimento: <?xml version="1.0" encoding="UTF-8"?>
+<response><annotations><sourceId>16</sourceId><start>11263</start><keyword>fishing</keyword><id>53</id></annotations></response>Error: file not set\n\n---------------------------    FINISH PROCESS    ---------------------------\n\n\n\n\n
+
+
+
+---------------------------    STARTING PROCESS    ---------------------------
+2014-11-01 00:13:58
+Filename: festa-birra-1.jpg
+User: giuseppebecchi2@gmail.com
+Media type: image
+ID Media type: 2
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">21</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">6</str><str name="Total Rows Fetched">0</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-11-01 00:05:04</str><str name="Total Documents Processed">0</str><str name="Time taken">0:0:0.107</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+Success
+\n\n---------------------------    FINISH PROCESS    ---------------------------\n\n\n\n\n
+
+
+
+---------------------------    STARTING PROCESS    ---------------------------
+2014-11-01 00:56:19
+Filename: ilgattoelavolpe.mp3
+User: giuseppebecchi2@gmail.com
+Media type: audio
+ID Media type: 3
+http://localhost:8080/solr_471/loki/dataimport?command=full-import&clean=false<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">23</int></lst><lst name="initArgs"><lst name="defaults"><str name="config">data-config.xml</str></lst></lst><str name="command">full-import</str><str name="status">idle</str><str name="importResponse"/><lst name="statusMessages"><str name="Total Requests made to DataSource">7</str><str name="Total Rows Fetched">16</str><str name="Total Documents Skipped">0</str><str name="Full Dump Started">2014-11-01 00:54:51</str><str name="">Indexing completed. Added/Updated: 1 documents. Deleted 0 documents.</str><str name="Committed">2014-11-01 00:54:51</str><str name="Total Documents Processed">1</str><str name="Time taken">0:0:2.218</str></lst><str name="WARNING">This response format is experimental.  It is likely to change in the future.</str>
+</response>
+Success
+\n\n---------------------------    FINISH PROCESS    ---------------------------\n\n\n\n\n

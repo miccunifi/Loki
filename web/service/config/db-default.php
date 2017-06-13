@@ -4,31 +4,16 @@
  * PHPMaker 5 configuration file
  */
 
-//absolute path to web folder app
-//example: /var/www/Loki/web/
-define("EW_ABS_PATH", "/Users/giuseppebecchi/Documents/htdocs/Loki/web/", TRUE);
+include(__DIR__ . '/../../params.php');
 
 
 //web absolute path
 //example: http://localhost/Loki/web/
-define("EW_URL_PATH", "http://localhost/Loki/web/", TRUE);
+define("EW_URL_PATH", "http://".EW_SERVER_NAME."/web/", TRUE);
 
 
 //web database path
-define("EW_CONN_USER", "root", TRUE);
-define("EW_CONN_PASS", "root", TRUE);
-define("EW_CONN_DB", "loki", TRUE);
-define("EW_CONN_DB_MEDIA", "loki", TRUE);
-
-
-define("EW_ABS_HOST", "127.0.0.1", TRUE);
-define("EW_CONN_HOST", "localhost", TRUE);
-define("EW_CONN_PORT", 3306, TRUE);
-
-
-define("EW_PROJECT", "loki", TRUE);
-
-
+define("EW_CONN_DB_MEDIA", EW_CONN_DB, TRUE);
 
 define("EW_SEPARATOR", "/");
 

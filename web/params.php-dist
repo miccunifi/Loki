@@ -1,0 +1,23 @@
+<?
+
+//general confic
+define("EW_PROJECT", "loki", TRUE);
+
+//network config
+define("EW_ABS_HOST", "127.0.0.1", TRUE);
+define("EW_SERVER_NAME", "localhost/loki/web/app", TRUE);
+
+//path config
+define("EW_ABS_PATH", "/var/www/public/loki/", TRUE);
+
+// Database connection
+define("EW_CONN_HOST", "localhost", TRUE);
+define("EW_CONN_PORT", 3306, TRUE);
+define("EW_CONN_DB", "loki", TRUE);
+define("EW_CONN_DB_MEDIA", "loki", TRUE);
+define("EW_CONN_USER", "root", TRUE);
+define("EW_CONN_PASS", "root", TRUE);
+
+define("EW_SOLR_URL", "http://localhost:8090/solr/loki/", TRUE);
+
+?>

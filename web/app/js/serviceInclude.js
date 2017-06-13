@@ -3,8 +3,8 @@ var previousxml = "";
 
 im3iRuntime= new function im3iRuntime() {
 
-    //change this value with the web root of your installation
-	this.unifiServer = 'http://localhost/Loki/web/';
+    //change this value with the web root of your installation if it's not included in config.js
+	this.unifiServer = CFG.absoluteRootPath;
 
 
     //other configs

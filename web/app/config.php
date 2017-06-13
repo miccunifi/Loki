@@ -26,18 +26,13 @@
 
 ?><?php
 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = 'root';
-$db_name = 'loki';
+include(__DIR__ . '/../params.php');
 
-$miccDirectory = "/Users/giuseppebecchi/Documents/htdocs/Loki/web/";
-$absolutePath = "http://localhost/Loki/web/";
-$solrCoreUrl = 'http://localhost:8080/solr_471/loki/';
+$miccDirectory = EW_ABS_PATH."/web/";
+$absolutePath = "http://".EW_SERVER_NAME."/web/";
+$solrCoreUrl = EW_SOLR_URL;
 
-
-
-$interfacePath = $absolutePath."app/";
+$interfacePath = EW_ABS_PATH."app/";
 
 $uploadDir = '/media/';
 
@@ -46,12 +41,12 @@ $uploadDir = '/media/';
 putenv('PATH=' . getenv('PATH') . ':/usr/local/bin');
 
 // connect to db
-$db_connect = mysql_connect($db_host, $db_user , $db_pass);
+$db_connect = mysql_connect(EW_CONN_HOST, EW_CONN_USER , EW_CONN_PASS);
 if (!$db_connect) {
     die('Not connected : ' . mysql_error());
 }
 
-if (! mysql_select_db($db_name) ) {
+if (! mysql_select_db(EW_CONN_DB) ) {
     die ('Can\'t conntect to database : ' . mysql_error());
 }
 
