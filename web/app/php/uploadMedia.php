@@ -39,7 +39,7 @@ if(isset($_FILES['myfile'])){
 	$temp = explode(".", $_FILES["myfile"]["name"]);
 	$extension = strtolower(end($temp));
 	$media_type = '';
-	$upload_dir = '../..'.$uploadDir;
+	$upload_dir = $uploadDir;
 	$id_media_type = 0;
 	if(in_array($extension, $images)){
 		$upload_dir .= 'image/';
@@ -73,8 +73,9 @@ if(isset($_FILES['myfile'])){
 			$filename = strtolower(preg_replace('/[^a-zA-Z0-9_ %\[\]\.\(\)%&-]/s', '', $filename));
 			$filename = str_replace("(", "", str_replace(")", "", $filename));
 			move_uploaded_file($_FILES["myfile"]["tmp_name"], $upload_dir.$filename);
-			
-			$log_text .= "\nFilename: ".$filename;
+
+            $log_text .= "\nFilename: ".$filename;
+            $log_text .= "\nUpload dir: ".$upload_dir;
             $log_text .= "\nUser: ".$_SESSION['email']."";
             $log_text .= "\nMedia type: ".$media_type."";
             $log_text .= "\nID Media type: ".$id_media_type."\n";

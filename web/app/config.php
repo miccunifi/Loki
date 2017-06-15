@@ -28,13 +28,13 @@
 
 include(__DIR__ . '/../params.php');
 
-$miccDirectory = EW_ABS_PATH."/web/";
+$miccDirectory = EW_ABS_PATH."web/";
 $absolutePath = "http://".EW_SERVER_NAME."/web/";
 $solrCoreUrl = EW_SOLR_URL;
 
 $interfacePath = EW_ABS_PATH."app/";
 
-$uploadDir = '/media/';
+$uploadDir = EW_ABS_PATH.'media/';
 
 
 // for executing pdfinfo by php exec from localhost

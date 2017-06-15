@@ -27,8 +27,6 @@
 ?><?php
 
 	define("ID_USER_AUTOMATIC", '2', TRUE);
-	define("EW_VIDEO_PATH", '/home/lorenzo/Documenti/localhost/micc/media/video/', TRUE);
-	define("EW_IMAGE_PATH", '/home/lorenzo/Documenti/localhost/micc/media/image/', TRUE);
 
 	
 function _convertToTimestamp($frame_to_convert, $fps){
