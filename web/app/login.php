@@ -24,12 +24,12 @@
 
 
 
-?><!DOCTYPE html>
-<html>
-<?php 
+?><?php
 include('config.php');
 session_start();
-?>
+?><!DOCTYPE html>
+<html>
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html charset=UTF-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,6 +55,7 @@ session_start();
 	</div>
 <?php 
 		if(isset($_POST['login'])){
+			//echo "PASSATO";
 			$password = md5($_POST['password']);
 			$result = mysql_query("SELECT id_users, password, name, avatar FROM users WHERE username='".$_POST['email']."'") or trigger_error(mysql_error());
 			if(mysql_num_rows($result)){
@@ -78,5 +79,9 @@ session_start();
 ?>
 	<a href="index.php" class="back-button">Back to Search</a>
   </div>
+  <?php
+
+  //var_dump($_REQUEST);
+  ?>
 </body>
 </html>
