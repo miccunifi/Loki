@@ -28,8 +28,8 @@
 
 include(__DIR__ . '/../params.php');
 
-$miccDirectory = EW_ABS_PATH."web/";
-$absolutePath = "http://".EW_SERVER_NAME."/web/";
+$miccDirectory = EW_ABS_PATH;//."web/";
+$absolutePath = EW_SERVER_NAME;
 $solrCoreUrl = EW_SOLR_URL;
 
 $interfacePath = EW_ABS_PATH."app/";
