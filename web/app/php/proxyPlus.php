@@ -36,7 +36,7 @@ if ($_POST) {
 //	fb($postvars);
 } else {
 //	fb('no $_POST data');
-	$postvars = $GLOBALS['HTTP_RAW_POST_DATA'];
+	$postvars = @$GLOBALS['HTTP_RAW_POST_DATA'];
 	
 }
 if ($_FILES) {

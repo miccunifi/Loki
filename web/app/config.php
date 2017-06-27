@@ -41,7 +41,7 @@ $uploadDir = EW_ABS_PATH.'media/';
 putenv('PATH=' . getenv('PATH') . ':/usr/local/bin');
 
 // connect to db
-$db_connect = mysql_connect(EW_CONN_HOST, EW_CONN_USER , EW_CONN_PASS);
+$db_connect = @mysql_connect(EW_CONN_HOST, EW_CONN_USER , EW_CONN_PASS);
 if (!$db_connect) {
     die('Not connected : ' . mysql_error());
 }

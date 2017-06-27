@@ -9,7 +9,7 @@ include(__DIR__ . '/../../params.php');
 
 //web absolute path
 //example: http://localhost/Loki/web/
-define("EW_URL_PATH", "http://".EW_SERVER_NAME."/web/", TRUE);
+define("EW_URL_PATH", EW_SERVER_NAME, TRUE);
 
 
 //web database path

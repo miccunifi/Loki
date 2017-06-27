@@ -65,7 +65,7 @@ if(isset($_POST['register'])){
 				$user = $_POST['email'];
 				$password = md5($_POST['password']);
 				$name = $_POST['name'];
-				$avatar = $interfacePath.'img/avatar-profilo.jpg';
+				$avatar = 'img/avatar-profilo.jpg';
 				
 				$result = mysql_query("SELECT username FROM users WHERE username ='" . $user . "'");
 				if(mysql_num_rows($result)==0){
