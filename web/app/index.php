@@ -22,6 +22,12 @@
  * 
 */
 
+session_start();
+
+if(isset($_POST["logout"])){
+	session_destroy();
+	header ("Location: index.php");
+}
 
 
 ?><!DOCTYPE html>
@@ -54,7 +60,6 @@ include('config.php');
 		</a>
 	</div>
 	<?php 
-		session_start();
 		if(isset($_SESSION['user'])){
 			echo '<div id="user-area-logged">';
 			echo '<a href="user-collection">';
@@ -72,10 +77,7 @@ include('config.php');
 		<a href="register.php" class="tab">Register</a>
 	<?php 
 	}	
-	if(isset($_POST["logout"])){
-		session_destroy();
-		header ("Location: index.php");
-	}
+
 	?>
 	</div>
 	<?php 
