@@ -36,6 +36,8 @@ $interfacePath = EW_ABS_PATH."app/";
 
 $uploadDir = EW_ABS_PATH.'media/';
 
+$appUrl = EW_SERVER_NAME.'app/';
+
 
 // for executing pdfinfo by php exec from localhost
 putenv('PATH=' . getenv('PATH') . ':/usr/local/bin');

@@ -44,7 +44,7 @@ if(isset($_POST['upload']))
     		$src = $output_dir.$_SESSION['user_id'].'-'.$_FILES["myfile"]["name"];
     		$img->saveImage($src, 90);
 			
-    		$avatar = $interfacePath.'img/avatars/'.$_SESSION['user_id'].'-'.$_FILES["myfile"]["name"];
+    		$avatar = 'img/avatars/'.$_SESSION['user_id'].'-'.$_FILES["myfile"]["name"];
     		
 			$result = mysql_query("UPDATE users SET avatar = '".$avatar."' WHERE username = '".$_SESSION['email']."'") or trigger_error(mysql_error());
 			if(mysql_affected_rows()!= -1){

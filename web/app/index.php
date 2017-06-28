@@ -61,7 +61,7 @@ include('config.php');
 		if(isset($_SESSION['user'])){
 			echo '<div id="user-area-logged">';
 			echo '<a href="user-collection">';
-			echo '<img class="user-avatar" src="'.$interfacePath.$_SESSION['avatar'].'" alt="avatar">'.$_SESSION['user'].'</a>';
+			echo '<img class="user-avatar" src="'.$appUrl.$_SESSION['avatar'].'" alt="avatar">'.$_SESSION['user'].'</a>';
 		?>
 			<form action="index.php" method="post">
 				<input type="submit" name="logout" class="logout-button btn btn-primary" value="Logout">
