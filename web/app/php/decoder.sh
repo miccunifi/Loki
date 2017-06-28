@@ -21,14 +21,14 @@ options="-vcodec libx264 -b 512k -flags +loop+mv4 -cmp 256 \
 #qt-faststart "$tmpfile" "$outfile"
 
 echo "Converting file to h264"
-echo "command: ffmpeg -i \"$infile\" -codec:v libx264 -profile: high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k \"$outfile\""
+echo "command: ffmpeg -y -i \"$infile\" -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k \"$outfile\""
 
-ffmpeg -i "$infile" -codec:v libx264 -profile: high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k "$outfile"
+ffmpeg -y -i "$infile" -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k "$outfile"
 
 
 echo "creating video thumbnail"
-echo "command: ffmpeg -ss 00:00:1 -i \"$infile\" -f image2 -vframes 1 $thumb"
-ffmpeg -ss 00:00:1 -i "$infile" -f image2 -vframes 1 $thumb
+echo "command: ffmpeg -y -ss 00:00:1 -i \"$infile\" -f image2 -vframes 1 $thumb"
+ffmpeg -y -ss 00:00:1 -i "$infile" -f image2 -vframes 1 $thumb
 
 #clean up intermediate files
 rm -f $tmpfile
