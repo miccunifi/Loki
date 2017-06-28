@@ -13,7 +13,7 @@ define("EW_URL_PATH", EW_SERVER_NAME, TRUE);
 
 
 //web database path
-define("EW_CONN_DB_MEDIA", EW_CONN_DB, TRUE);
+if (!defined("EW_CONN_DB_MEDIA")) define("EW_CONN_DB_MEDIA", EW_CONN_DB, TRUE);
 
 define("EW_SEPARATOR", "/");
 
