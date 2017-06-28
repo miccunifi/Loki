@@ -21,9 +21,9 @@ options="-vcodec libx264 -b 512k -flags +loop+mv4 -cmp 256 \
 #qt-faststart "$tmpfile" "$outfile"
 
 echo "Converting file to h264"
-echo "command: ffmpeg -y -i \"$infile\" -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k \"$outfile\""
+echo "command: ffmpeg -y -i \"$infile\" -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-2:480 -threads 0 -codec:a libfdk_aac -b:a 128k \"$outfile\""
 
-ffmpeg -y -i "$infile" -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k "$outfile"
+ffmpeg -y -i "$infile" -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-2:480 -threads 0 -codec:a libfdk_aac -b:a 128k "$outfile"
 
 
 echo "creating video thumbnail"
