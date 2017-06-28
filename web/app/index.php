@@ -29,11 +29,9 @@ if(isset($_POST["logout"])){
 	header ("Location: index.php");
 }
 
+include('config.php');
 
 ?><!DOCTYPE html>
-<?php 
-include('config.php');
-?>
 <html lang="en">
 <head>
 	<title>micc Search</title>
@@ -63,7 +61,7 @@ include('config.php');
 		if(isset($_SESSION['user'])){
 			echo '<div id="user-area-logged">';
 			echo '<a href="user-collection">';
-			echo '<img class="user-avatar" src="'.EW_SERVER_NAME.$_SESSION['avatar'].'" alt="avatar">'.$_SESSION['user'].'</a>';
+			echo '<img class="user-avatar" src="'.$interfacePath.$_SESSION['avatar'].'" alt="avatar">'.$_SESSION['user'].'</a>';
 		?>
 			<form action="index.php" method="post">
 				<input type="submit" name="logout" class="logout-button btn btn-primary" value="Logout">
