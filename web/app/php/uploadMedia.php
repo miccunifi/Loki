@@ -35,6 +35,12 @@ $images = array("gif", "jpeg", "jpg", "png");
 $videos = array("mp4", "mpeg", "mov", "avi", "wmv", "mpg", "m4v");
 $documents = array("pdf", "doc", "ods", "odt", "docx");
 $audios = array("mp3", "wma");
+
+
+$log_text = "\n\n\n\n---------------------------    STARTING PROCESS    ---------------------------\n";
+$today = date("Y-m-d H:i:s");
+$log_text .= $today;
+
 if(isset($_FILES['myfile'])){
 	$temp = explode(".", $_FILES["myfile"]["name"]);
 	$extension = strtolower(end($temp));
@@ -59,16 +65,18 @@ if(isset($_FILES['myfile'])){
 		$id_media_type = 4;
 	} else {
 		$upload_dir = null;
+        $error = "Error: File type not allowed";
+        $log_text .= $error;
+        echo $error;
 	}
 	
 	if($upload_dir != null ){
 		if ($_FILES["myfile"]["error"] > 0) {
-			echo "Error: File too large";
+            $error =  "Error: File too large";
+            $log_text .= $error;
+            echo $error;
 		}
 		else {
-			$log_text = "\n\n\n\n---------------------------    STARTING PROCESS    ---------------------------\n";
-			$today = date("Y-m-d H:i:s");
-			$log_text .= $today;
 			$filename = str_replace("'", "", str_replace(" ", "", $_FILES["myfile"]["name"]));
 			$filename = strtolower(preg_replace('/[^a-zA-Z0-9_ %\[\]\.\(\)%&-]/s', '', $filename));
 			$filename = str_replace("(", "", str_replace(")", "", $filename));
