@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*==========================
 proxyPlus.php
@@ -8,7 +8,7 @@ proxyPlus.php
 - if a file is posted it will be posted along with the outgoing request
 
 created at: Aug 19, 2010
-scripted by: 
+scripted by:
 
 Remy Blom,
 Utrecht School of Arts,
@@ -28,7 +28,7 @@ $url = preg_replace('/\s/','+', $url);
 $timeout = 14000;
 
 $postvars = array();
-	
+
 if ($_POST) {
 	foreach ($_POST as $key => $value) {
 		$postvars[$key] = $value;
@@ -36,8 +36,8 @@ if ($_POST) {
 //	fb($postvars);
 } else {
 //	fb('no $_POST data');
-	$postvars = @$GLOBALS['HTTP_RAW_POST_DATA'];
-	
+	$postvars = @file_get_contents("php://input");
+
 }
 if ($_FILES) {
 	foreach ($_FILES as $key => $value) {
@@ -48,33 +48,33 @@ if ($_FILES) {
 } else {
 //	fb('no $_FILES data');
 }
-	
+
 /* send request to crossdomain url */
 
 $session = curl_init($url);
 
-//$headers[] = 'Content-type: application/x-www-form-urlencoded;charset=UTF-8'; 
+//$headers[] = 'Content-type: application/x-www-form-urlencoded;charset=UTF-8';
 
- $headers = array(             
-        "Content-type: text/xml;charset=\"utf-8\"", 
-        "Accept: text/xml", 
-        "Cache-Control: no-cache", 
-        "Pragma: no-cache", 
-        "SOAPAction: \"run\"", 
+ $headers = array(
+        "Content-type: text/xml;charset=\"utf-8\"",
+        "Accept: text/xml",
+        "Cache-Control: no-cache",
+        "Pragma: no-cache",
+        "SOAPAction: \"run\"",
         "Content-length: ".strlen($postvars),
-    ); 
+    );
 
 curl_setopt($session, CURLOPT_USERAGENT, "ProxyPlus/PHP/Remy.Blom@kmt.hku.nl");
 curl_setopt($session, CURLOPT_TIMEOUT, $timeout);
 curl_setopt($session, CURLOPT_CONNECTTIMEOUT, $timeout);
 //curl_setopt($session, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($session, CURLOPT_HTTPHEADER, $headers);
-curl_setopt($session, CURLOPT_FOLLOWLOCATION, true); 
+curl_setopt($session, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
 if ($postvars) {
 	curl_setopt($session, CURLOPT_POST, true);
 	curl_setopt($session, CURLOPT_POSTFIELDS, $postvars);
-	
+
 }
 
 $response = curl_exec($session);
