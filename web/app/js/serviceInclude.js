@@ -11,12 +11,12 @@ im3iRuntime= new function im3iRuntime() {
 	this.unifiSoapServer = this.unifiServer + 'service/soap_client/server.php';
 	this.server = "";
 	this.soapServer = this.server + 'webservices/';
-	this.proxy = '../php/proxy.php?mimeType=text/xml;charset=UTF-8&url=';
-	this.proxyhtml = '../php/proxy.php?mimeType=text/html;charset=UTF-8&url=';
-	this.proxytext = '../php/proxy.php?mimeType=text/xml;charset=UTF-8&url=';
-	this.unifiProxytext = '../php/proxy.php?mimeType=text/xml;charset=UTF-8&url=';
+	this.proxy = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&proxy_url=';
+	this.proxyhtml = '../php/proxyPlus.php?mimeType=text/html;charset=UTF-8&proxy_url=';
+	this.proxytext = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&proxy_url=';
+	this.unifiProxytext = '../php/proxyPlus.php?mimeType=text/xml;charset=UTF-8&proxy_url=';
 	this.fileUrl = this.server + 'getfile?id=';
-	this.proxyplus = '../php/proxy.php?url=';
+	this.proxyplus = '../php/proxyPlus.php?url=';
 	this.proxyupload = '../php/proxyUpload.php?url=';
 
 	this.repository = null;

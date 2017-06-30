@@ -1,94 +1,127 @@
 <?php
+error_reporting(0);
+// include('class_http.php');
+/*
+2.
+   // FILE: proxy.php
+3.
+   //
+4.
+   // LAST MODIFIED: 2006-03-23
+5.
+   //
+6.
+   // AUTHOR: Troy Wolf <troy@troywolf.com>
+7.
+   //
+8.
+   // DESCRIPTION: Allow scripts to request content they otherwise may not be
+9.
+   // able to. For example, AJAX (XmlHttpRequest) requests from a
+10.
+   // client script are only allowed to make requests to the same
+11.
+   // host that the script is served from. This is to prevent
+12.
+   // "cross-domain" scripting. With proxy.php, the javascript
+13.
+   // client can pass the requested URL in and get back the
+14.
+   // response from the external server.
+15.
+   //
+16.
+   // USAGE: "proxy_url" required parameter. For example:
+17.
+   // http://www.mydomain.com/proxy.php?proxy_url=http://www.yahoo.com
+18.
+   //
+19.
 
-/*==========================
-proxyPlus.php
+20.
+   // proxy.php requires Troy's class_http. http://www.troywolf.com/articles
+21.
+   // Alter the path according to your environment.
+22.
+*/
+require_once("class_http.php");
 
-- php script which solves crossdomain issues
-- gets url and sets mimeType of response
-- if a file is posted it will be posted along with the outgoing request
+$proxy_url = isset($_GET['proxy_url'])?$_GET['proxy_url']:false;
 
-created at: Aug 19, 2010
-scripted by:
+//modifica fatat da giuseppe becchi per ovviare al problema dell'encoding del carattere +
+//$proxy_url = str_replace('+','%2B',$proxy_url);
 
-Remy Blom,
-Utrecht School of Arts,
-The Netherlands
 
-www.hku.nl
-remy.blom@kmt.hku.nl
-==========================*/
+if (!$proxy_url) {
 
-/* FirePHPCore is used to allow debugging in FireBug (messages are send by headers */
-// require_once('../../eutv-image-component/php/lib/FirePHPCore/fb.php');
+	header("HTTP/1.0 400 Bad Request");
 
-$url = $_GET['url'];
-$mimeType = $_GET['mimeType'];
+	echo "proxy.php failed because proxy_url parameter is missing";
 
-$url = preg_replace('/\s/','+', $url);
-$timeout = 14000;
-
-$postvars = array();
-
-if ($_POST) {
-	foreach ($_POST as $key => $value) {
-		$postvars[$key] = $value;
-	}
-//	fb($postvars);
-} else {
-//	fb('no $_POST data');
-	$postvars = @file_get_contents("php://input");
-
-}
-if ($_FILES) {
-	foreach ($_FILES as $key => $value) {
-		$postvars[$key . '_filename'] = $value["name"];
-		$postvars[$key . '_mimetype'] = $value["type"];
-		$postvars[$key] = '@' . $value['tmp_name'];
-	}
-} else {
-//	fb('no $_FILES data');
-}
-
-/* send request to crossdomain url */
-
-$session = curl_init($url);
-
-//$headers[] = 'Content-type: application/x-www-form-urlencoded;charset=UTF-8';
-
- $headers = array(
-        "Content-type: text/xml;charset=\"utf-8\"",
-        "Accept: text/xml",
-        "Cache-Control: no-cache",
-        "Pragma: no-cache",
-        "SOAPAction: \"run\"",
-        "Content-length: ".strlen($postvars),
-    );
-
-curl_setopt($session, CURLOPT_USERAGENT, "ProxyPlus/PHP/Remy.Blom@kmt.hku.nl");
-curl_setopt($session, CURLOPT_TIMEOUT, $timeout);
-curl_setopt($session, CURLOPT_CONNECTTIMEOUT, $timeout);
-//curl_setopt($session, CURLOPT_HTTPHEADER, $headers);
-curl_setopt($session, CURLOPT_HTTPHEADER, $headers);
-curl_setopt($session, CURLOPT_FOLLOWLOCATION, true);
-curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
-if ($postvars) {
-	curl_setopt($session, CURLOPT_POST, true);
-	curl_setopt($session, CURLOPT_POSTFIELDS, $postvars);
+	exit();
 
 }
 
-$response = curl_exec($session);
 
-/* send response to browser */
 
-$charset = "UTF-8";
-if ($mimeType != "") {
-	header("Content-Type: ".$mimeType);
-} else {
-	header("Content-Type: text/html; charset=".$charset);
+// Instantiate the http object used to make the web requests.
+
+// More info about this object at www.troywolf.com/articles
+
+if (!$h = new http()) {
+
+	header("HTTP/1.0 501 Script Error");
+
+	echo "proxy.php failed trying to initialize the http object";
+
+	exit();
+
 }
-echo $response;
 
-curl_close($session);
+
+
+$h->url = $proxy_url;
+
+$h->postvars = $_POST;
+
+if (!$h->fetch($h->url)) {
+
+	header("HTTP/1.0 501 Script Error");
+
+	echo "proxy.php had an error attempting to query the url";
+
+	exit();
+
+}
+
+
+
+// Forward the headers to the client.
+
+$ary_headers = split( "\n",$h->header); //
+
+foreach($ary_headers as $hdr) { header($hdr); }
+// Send the response body to the client.
+echo $h->body;
+
+//$xml=$h->body;
+
+//writing log
+append_txt("\n\n".date('c').'\n'.$h->log,'log.txt');
+
+
+
+function append_txt($string,$file_txt){
+	$file=fopen($file_txt,"a");
+	fseek($file,0);
+	fputs($file,$string."\n");
+	fclose($file);
+}
+
+
+
+
+
+
 
 ?>

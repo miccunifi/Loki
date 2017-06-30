@@ -4,6 +4,7 @@
     <list default="true" id="df86734b-efff-4fcd-a2c5-a8d345130c5e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/js/serviceInclude.js" afterPath="$PROJECT_DIR$/web/app/js/serviceInclude.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/php/proxyPlus.php" afterPath="$PROJECT_DIR$/web/app/php/proxyPlus.php" />
     </list>
     <ignored path="Loki.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="serviceInclude.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serviceInclude.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/js/serviceInclude.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="216">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -47,21 +48,19 @@
       <file leaf-file-name="proxy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/php/proxy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="48" column="41" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="41" />
+            <state relative-caret-position="168">
+              <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxyPlus.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="proxyPlus.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/app/php/proxyPlus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1041">
-              <caret line="84" column="13" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="13" />
-              <folding>
-                <element signature="e#7#361#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,9 +162,9 @@
         <option value="$PROJECT_DIR$/web/app/php/.gitignore" />
         <option value="$PROJECT_DIR$/web/service/config/db-default.php" />
         <option value="$PROJECT_DIR$/web/service/lib/nusoap/nusoap.php" />
-        <option value="$PROJECT_DIR$/web/app/php/proxyPlus.php" />
         <option value="$PROJECT_DIR$/web/app/php/proxy.php" />
         <option value="$PROJECT_DIR$/web/app/js/serviceInclude.js" />
+        <option value="$PROJECT_DIR$/web/app/php/proxyPlus.php" />
       </list>
     </option>
   </component>
@@ -454,7 +453,7 @@
       <workItem from="1497524983849" duration="9442000" />
       <workItem from="1497878779489" duration="5000" />
       <workItem from="1498571782985" duration="12890000" />
-      <workItem from="1498828377242" duration="2458000" />
+      <workItem from="1498828377242" duration="2560000" />
     </task>
     <task id="LOCAL-00001" summary="updating config files">
       <created>1497364410147</created>
@@ -568,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498830889909</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="proxy soap updated">
+      <created>1498831059280</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1498831059280</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33730000" />
+    <option name="totallyTimeSpent" value="33832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="67" width="1365" height="787" extended-state="0" />
@@ -1003,16 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/php/proxyPlus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="13" />
-          <folding>
-            <element signature="e#7#361#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1045,14 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/php/proxy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/php/solrProxy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1071,8 +1059,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/js/serviceInclude.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="216">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/proxyPlus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
       </provider>
