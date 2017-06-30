@@ -48,6 +48,9 @@
 
       $proxy_url = isset($_GET['proxy_url'])?$_GET['proxy_url']:false;
 
+      if (!$proxy_url) $proxy_url = isset($_GET['url'])?$_GET['url']:false;
+
+
 	 //modifica fatat da giuseppe becchi per ovviare al problema dell'encoding del carattere +
 	 //$proxy_url = str_replace('+','%2B',$proxy_url);
 	 
