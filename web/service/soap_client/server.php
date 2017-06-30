@@ -1850,7 +1850,7 @@ function getSimilarImages($input) {
 
 
 // Use the request to (try to) invoke the service
-$post_data = isset($HTTP_RAW_POST_DATA) ? $HTTP_RAW_POST_DATA : '';
+$post_data = file_get_contents("php://input");;
 $server->service($post_data);
 
 function insert_annotation($annotation){

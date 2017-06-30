@@ -47,29 +47,29 @@
       <file leaf-file-name="server.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/service/soap_client/server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="1853" column="27" selection-start-line="1853" selection-start-column="27" selection-end-line="1853" selection-end-column="27" />
+            <state relative-caret-position="246">
+              <caret line="1852" column="46" selection-start-line="1852" selection-start-column="46" selection-end-line="1852" selection-end-column="46" />
               <folding>
-                <marker date="1498832352000" expanded="true" signature="20039:20113" ph="INSERT INTO logs... " />
-                <marker date="1498832352000" expanded="true" signature="21240:21266" ph="select * fro... media" />
-                <marker date="1498832352000" expanded="true" signature="31114:31499" ph="SELECT id_an... media" />
-                <marker date="1498832352000" expanded="true" signature="34532:34915" ph="SELECT SQL_C... media" />
-                <marker date="1498832352000" expanded="true" signature="35712:35878" ph="SELECT GROUP... annotations" />
-                <marker date="1498832352000" expanded="true" signature="35937:36103" ph="SELECT GROUP... annotations" />
-                <marker date="1498832352000" expanded="true" signature="39095:39481" ph="SELECT SQL_C... media" />
-                <marker date="1498832352000" expanded="true" signature="42230:42581" ph="SELECT idTra... media" />
-                <marker date="1498832352000" expanded="true" signature="48185:48267" ph="select count... annotations" />
-                <marker date="1498832352000" expanded="true" signature="48513:48592" ph="select title... annotations" />
-                <marker date="1498832352000" expanded="true" signature="48645:48719" ph="DELETE FROM " />
-                <marker date="1498832352000" expanded="true" signature="49527:49626" ph="select id_us... users" />
-                <marker date="1498832352000" expanded="true" signature="49876:49955" ph="select * fro... transcriptions" />
-                <marker date="1498832352000" expanded="true" signature="52013:52152" ph="SELECT SQL_C... annotations" />
-                <marker date="1498832352000" expanded="true" signature="53608:53804" ph="SELECT thumb... annotations" />
-                <marker date="1498832352000" expanded="true" signature="55460:55563" ph="SELECT id_me... annotations" />
-                <marker date="1498832352000" expanded="true" signature="57212:57311" ph="select id_us... users" />
-                <marker date="1498832352000" expanded="true" signature="57832:57887" ph="select count... media" />
-                <marker date="1498832352000" expanded="true" signature="58048:58136" ph="SELECT id_co... concepts" />
-                <marker date="1498832352000" expanded="true" signature="58210:58336" ph="INSERT INTO ${EW_CONN_DB_MEDIA}.concepts... " />
+                <marker date="1498832549000" expanded="true" signature="20039:20113" ph="INSERT INTO logs... " />
+                <marker date="1498832549000" expanded="true" signature="21240:21266" ph="select * fro... media" />
+                <marker date="1498832549000" expanded="true" signature="31114:31499" ph="SELECT id_an... media" />
+                <marker date="1498832549000" expanded="true" signature="34532:34915" ph="SELECT SQL_C... media" />
+                <marker date="1498832549000" expanded="true" signature="35712:35878" ph="SELECT GROUP... annotations" />
+                <marker date="1498832549000" expanded="true" signature="35937:36103" ph="SELECT GROUP... annotations" />
+                <marker date="1498832549000" expanded="true" signature="39095:39481" ph="SELECT SQL_C... media" />
+                <marker date="1498832549000" expanded="true" signature="42230:42581" ph="SELECT idTra... media" />
+                <marker date="1498832549000" expanded="true" signature="48185:48267" ph="select count... annotations" />
+                <marker date="1498832549000" expanded="true" signature="48513:48592" ph="select title... annotations" />
+                <marker date="1498832549000" expanded="true" signature="48645:48719" ph="DELETE FROM " />
+                <marker date="1498832549000" expanded="true" signature="49527:49626" ph="select id_us... users" />
+                <marker date="1498832549000" expanded="true" signature="49876:49955" ph="select * fro... transcriptions" />
+                <marker date="1498832549000" expanded="true" signature="52013:52152" ph="SELECT SQL_C... annotations" />
+                <marker date="1498832549000" expanded="true" signature="53608:53804" ph="SELECT thumb... annotations" />
+                <marker date="1498832549000" expanded="true" signature="55460:55563" ph="SELECT id_me... annotations" />
+                <marker date="1498832549000" expanded="true" signature="57192:57291" ph="select id_us... users" />
+                <marker date="1498832549000" expanded="true" signature="57812:57867" ph="select count... media" />
+                <marker date="1498832549000" expanded="true" signature="58028:58116" ph="SELECT id_co... concepts" />
+                <marker date="1498832549000" expanded="true" signature="58190:58316" ph="INSERT INTO ${EW_CONN_DB_MEDIA}.concepts... " />
               </folding>
             </state>
           </provider>
@@ -78,7 +78,7 @@
       <file leaf-file-name="proxy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/php/proxy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
+            <state relative-caret-position="168">
               <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
@@ -91,59 +91,6 @@
             <state relative-caret-position="-579">
               <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solrProxy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/php/solrProxy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="61" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nusoap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/service/lib/nusoap/nusoap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-              <folding>
-                <marker date="1498666791000" expanded="true" signature="60932:61107" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="61284:61416" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="178829:182291" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="178835:182038" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="178906:180269" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="179365:179410" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="179422:179641" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="179655:179838" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="179853:180088" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="180325:182028" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="180382:181105" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="181189:181520" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="181523:181643" ph="//..." />
-                <marker date="1498666791000" expanded="true" signature="181670:181772" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="181832:181919" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="181870:181915" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="181939:182009" ph="{...}" />
-                <marker date="1498666791000" expanded="true" signature="182047:182291" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="182069:182291" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="182149:182291" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="182157:182282" ph="..." />
-                <marker date="1498666791000" expanded="false" signature="182263:182269" ph="'" />
-                <marker date="1498666791000" expanded="true" signature="182500:182586" ph="..." />
-                <marker date="1498666791000" expanded="true" signature="182952:182958" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="182958:182964" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183099:183105" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183105:183111" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183111:183117" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183117:183123" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183216:183222" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183222:183228" ph=" " />
-                <marker date="1498666791000" expanded="true" signature="183433:183466" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -441,7 +388,7 @@
       <workItem from="1497878779489" duration="5000" />
       <workItem from="1498571782985" duration="12890000" />
       <workItem from="1498828377242" duration="2700000" />
-      <workItem from="1498831303143" duration="881000" />
+      <workItem from="1498831303143" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="updating config files">
       <created>1497364410147</created>
@@ -576,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498831351505</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix bug">
+      <created>1498832364889</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1498832364889</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34853000" />
+    <option name="totallyTimeSpent" value="35040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="67" width="1365" height="787" extended-state="0" />
@@ -628,7 +582,8 @@
     <MESSAGE value="fixed ffmpeg dimensions multiple of 2" />
     <MESSAGE value="nusoap old code fixing" />
     <MESSAGE value="proxy soap updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy soap updated" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -951,9 +906,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/lib/jquery.soapRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/solrCalls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/serviceSoapCalls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="334" column="72" selection-start-line="334" selection-start-column="72" selection-end-line="334" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/js/serviceInclude.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/service/lib/nusoap/nusoap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="-12">
           <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding>
             <marker date="1498666791000" expanded="true" signature="60932:61107" ph="..." />
@@ -992,76 +1005,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/lib/jquery.soapRequest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="68" column="49" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/js/solrCalls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/php/proxy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/php/solrProxy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="303">
           <caret line="48" column="61" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/js/serviceSoapCalls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="334" column="72" selection-start-line="334" selection-start-column="72" selection-end-line="334" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/js/serviceInclude.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1074,31 +1021,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/php/proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/service/soap_client/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1853" column="27" selection-start-line="1853" selection-start-column="27" selection-end-line="1853" selection-end-column="27" />
+        <state relative-caret-position="246">
+          <caret line="1852" column="46" selection-start-line="1852" selection-start-column="46" selection-end-line="1852" selection-end-column="46" />
           <folding>
-            <marker date="1498832352000" expanded="true" signature="20039:20113" ph="INSERT INTO logs... " />
-            <marker date="1498832352000" expanded="true" signature="21240:21266" ph="select * fro... media" />
-            <marker date="1498832352000" expanded="true" signature="31114:31499" ph="SELECT id_an... media" />
-            <marker date="1498832352000" expanded="true" signature="34532:34915" ph="SELECT SQL_C... media" />
-            <marker date="1498832352000" expanded="true" signature="35712:35878" ph="SELECT GROUP... annotations" />
-            <marker date="1498832352000" expanded="true" signature="35937:36103" ph="SELECT GROUP... annotations" />
-            <marker date="1498832352000" expanded="true" signature="39095:39481" ph="SELECT SQL_C... media" />
-            <marker date="1498832352000" expanded="true" signature="42230:42581" ph="SELECT idTra... media" />
-            <marker date="1498832352000" expanded="true" signature="48185:48267" ph="select count... annotations" />
-            <marker date="1498832352000" expanded="true" signature="48513:48592" ph="select title... annotations" />
-            <marker date="1498832352000" expanded="true" signature="48645:48719" ph="DELETE FROM " />
-            <marker date="1498832352000" expanded="true" signature="49527:49626" ph="select id_us... users" />
-            <marker date="1498832352000" expanded="true" signature="49876:49955" ph="select * fro... transcriptions" />
-            <marker date="1498832352000" expanded="true" signature="52013:52152" ph="SELECT SQL_C... annotations" />
-            <marker date="1498832352000" expanded="true" signature="53608:53804" ph="SELECT thumb... annotations" />
-            <marker date="1498832352000" expanded="true" signature="55460:55563" ph="SELECT id_me... annotations" />
-            <marker date="1498832352000" expanded="true" signature="57212:57311" ph="select id_us... users" />
-            <marker date="1498832352000" expanded="true" signature="57832:57887" ph="select count... media" />
-            <marker date="1498832352000" expanded="true" signature="58048:58136" ph="SELECT id_co... concepts" />
-            <marker date="1498832352000" expanded="true" signature="58210:58336" ph="INSERT INTO ${EW_CONN_DB_MEDIA}.concepts... " />
+            <marker date="1498832549000" expanded="true" signature="20039:20113" ph="INSERT INTO logs... " />
+            <marker date="1498832549000" expanded="true" signature="21240:21266" ph="select * fro... media" />
+            <marker date="1498832549000" expanded="true" signature="31114:31499" ph="SELECT id_an... media" />
+            <marker date="1498832549000" expanded="true" signature="34532:34915" ph="SELECT SQL_C... media" />
+            <marker date="1498832549000" expanded="true" signature="35712:35878" ph="SELECT GROUP... annotations" />
+            <marker date="1498832549000" expanded="true" signature="35937:36103" ph="SELECT GROUP... annotations" />
+            <marker date="1498832549000" expanded="true" signature="39095:39481" ph="SELECT SQL_C... media" />
+            <marker date="1498832549000" expanded="true" signature="42230:42581" ph="SELECT idTra... media" />
+            <marker date="1498832549000" expanded="true" signature="48185:48267" ph="select count... annotations" />
+            <marker date="1498832549000" expanded="true" signature="48513:48592" ph="select title... annotations" />
+            <marker date="1498832549000" expanded="true" signature="48645:48719" ph="DELETE FROM " />
+            <marker date="1498832549000" expanded="true" signature="49527:49626" ph="select id_us... users" />
+            <marker date="1498832549000" expanded="true" signature="49876:49955" ph="select * fro... transcriptions" />
+            <marker date="1498832549000" expanded="true" signature="52013:52152" ph="SELECT SQL_C... annotations" />
+            <marker date="1498832549000" expanded="true" signature="53608:53804" ph="SELECT thumb... annotations" />
+            <marker date="1498832549000" expanded="true" signature="55460:55563" ph="SELECT id_me... annotations" />
+            <marker date="1498832549000" expanded="true" signature="57192:57291" ph="select id_us... users" />
+            <marker date="1498832549000" expanded="true" signature="57812:57867" ph="select count... media" />
+            <marker date="1498832549000" expanded="true" signature="58028:58116" ph="SELECT id_co... concepts" />
+            <marker date="1498832549000" expanded="true" signature="58190:58316" ph="INSERT INTO ${EW_CONN_DB_MEDIA}.concepts... " />
           </folding>
         </state>
       </provider>
