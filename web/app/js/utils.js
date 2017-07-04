@@ -68,7 +68,7 @@ utils = {
     	var images_id = [];
     	
     	//Getting similar images' id
-    	var url = CFG.solrLireUrl + "url=" + URL + "&rows=" + CFG.maxResults;
+    	var url = CFG.solrLireUrl + "url=" + URL + "&rows=" + CFG.maxResults+"&wt=xml";
     	query_url += encodeURIComponent(url).replace(/'/g,"%27").replace(/"/g,"%22");
     	$.ajax({
     		url : query_url,
@@ -109,7 +109,7 @@ utils = {
     	var images_id = [];
     	
     	//Getting similar images' id
-    	var url = CFG.solrLireUrl + "id=" + id + "&rows=" + CFG.maxResults;
+    	var url = CFG.solrLireUrl + "id=" + id + "&rows=" + CFG.maxResults+"&wt=xml";
     	query_url += encodeURIComponent(url).replace(/'/g,"%27").replace(/"/g,"%22");
     	$.ajax({
     		url : query_url,
