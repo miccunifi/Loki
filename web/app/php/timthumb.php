@@ -546,7 +546,9 @@ function checkExternal ($src) {
         'blogger.com',
         'wordpress.com',
         'img.youtube.com',
-		'shrek.micc.unifi.it'
+		'shrek.micc.unifi.it',
+        'scontent.xx.fbcdn.net',
+        'fbcdn.net'
     );
 
     if (ereg('http://', $src) == true) {
