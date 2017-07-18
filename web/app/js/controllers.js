@@ -400,14 +400,18 @@ function mediaCtrl($scope, $timeout) {
 
 					var src = path;
 
-					if ($(images[i]).find("str[name='filename']")) {
+					if ($(images[i]).find("str[name='filename']").text()!="") {
+						console.log("file on server");
 						src += $(images[i]).find("str[name='filename']").text();
 						thumb = '../php/timthumb.php?src=' + src + '&&w=70&h=70&zc=1';
 					}
-					else thumb = path;
+					else {
+						console.log("ext image");
+						thumb = path;
+					}
 
 
-
+					console.log("thumb: "+ thumb)
 
 					var title = $(images[i]).find("str[name='title']").text();
 					var id = $(images[i]).find("str[name='id']").text();
