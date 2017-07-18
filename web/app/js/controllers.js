@@ -396,10 +396,13 @@ function mediaCtrl($scope, $timeout) {
 
 				for ( var i = 0; i < $(images).length; i++) {
 					var path = $(images[i]).find("str[name='dataserverpath']").text();
-					var src = path + $(images[i]).find("str[name='filename']").text();
 
-					// Thumbnail (timthumb)
-					var thumb = '../php/timthumb.php?src=' + src + '&&w=70&h=70&zc=1';
+					var thumb = path;
+
+					if ($(images[i]).find("str[name='filename']"))
+						thumb += $(images[i]).find("str[name='filename']").text();
+
+
 
 					var title = $(images[i]).find("str[name='title']").text();
 					var id = $(images[i]).find("str[name='id']").text();
