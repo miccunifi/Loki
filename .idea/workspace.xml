@@ -37,8 +37,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="404" column="0" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -414,7 +414,7 @@
       <workItem from="1499332922576" duration="1075000" />
       <workItem from="1499777370548" duration="546000" />
       <workItem from="1499950348921" duration="199000" />
-      <workItem from="1499954327383" duration="2405000" />
+      <workItem from="1499954327383" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="updating config files">
       <created>1497364410147</created>
@@ -584,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500380272753</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="in case of image not downloaded directly take url">
+      <created>1500381061668</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1500381061668</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44497000" />
+    <option name="totallyTimeSpent" value="44755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="54" width="1365" height="787" extended-state="0" />
@@ -639,7 +646,8 @@
     <MESSAGE value="fix bug" />
     <MESSAGE value="fix bug solr response in xml" />
     <MESSAGE value="allowed thumb image from facebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="allowed thumb image from facebook" />
+    <MESSAGE value="in case of image not downloaded directly take url" />
+    <option name="LAST_COMMIT_MESSAGE" value="in case of image not downloaded directly take url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1054,8 +1062,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="404" column="0" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
           <folding />
         </state>
       </provider>
